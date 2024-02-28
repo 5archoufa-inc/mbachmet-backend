@@ -24,7 +24,7 @@ io.on("connection", (socket) => {
     });
 
     socket.on("input", (horizontal, vertical) => {
-        console.log(horizontal, vertical)
+        //console.log(horizontal, vertical)
         io.to("dev").emit("input", horizontal, vertical);
     });
 
