@@ -1,6 +1,7 @@
-const express = require("express");
-const { createServer } = require("node:http");
-const { Server } = require("socket.io");
+const express = require(`express`);
+const { createServer } = require(`node:http`);
+const { Server } = require(`socket.io`);
+const { createRoom, joinRoom} = require(`./rooms`);
 
 const app = express();
 const server = createServer(app);
@@ -8,20 +9,41 @@ const io = new Server(server);
 
 app.use(express.json());
 server.listen(3000, () => {
-    console.log("server running at http://localhost:3000");
+    console.log(`server running at http://localhost:3000`);
 });
 
-app.get("/rooms/:id/", (req, res) => {
-    console.log("User attempted to join room:", req.params.id);
+app.post("/room/create", (req, res) => {
+    const {player, roomName} = req.body;
+    const roomId = createRoom(player.id, roomName);
+    if(roomId != -1){
+        res.status(200).json({
+            roomId
+        });
+        console.log(`Player ${player.username}#${player.id} created the room ${roomName}#${roomId}`)
+    }else{
+        res.status(500).json({
+            error: "Player is already a member of another room."
+        });
+        console.log(`Player ${player.username}#${player.id} failed to create a room named \"${roomName}\"`)
+    }
+});
+
+app.post("/room/join", (req, res)=>{
+    const {player, roomId} = req.body;
+    if(joinRoom(roomId, player.id)){
+        res.status(200).json({});
+        console.log(`Player ${player.username}#${player.id} joined the room #${roomId}`)
+    }else{
+        res.status(500).json({
+            error: "An error occured"
+        });
+        console.log(`Player ${player.username}#${player.id} failed to join the room #${roomId}`)
+    }
 });
 
 io.on("connection", (socket) => {
-    console.log("Player <", socket.id, "> connected");
+    console.log(`Player <${socket.id}> connected`);
     socket.join("dev");
-
-    socket.on("chat", (msg) => {
-        console.log("Essayed sent a message:", msg);
-    });
 
     socket.on("input", (horizontal, vertical) => {
         //console.log(horizontal, vertical)
