@@ -1,7 +1,8 @@
 const express = require(`express`);
 const { createServer } = require(`node:http`);
 const { Server } = require(`socket.io`);
-const { createRoom, joinRoom} = require(`./rooms`);
+const { Room, createRoom, joinRoom} = require(`./Rooms`);
+const { Player, generatePlayerId } = require(`./Player`);
 
 const app = express();
 const server = createServer(app);
@@ -31,7 +32,7 @@ app.post("/room/create", (req, res) => {
 app.post("/room/join", (req, res)=>{
     const {player, roomId} = req.body;
     if(joinRoom(roomId, player.id)){
-        res.status(200).json({});
+        res.status(200).json({roomId});
         console.log(`Player ${player.username}#${player.id} joined the room #${roomId}`)
     }else{
         res.status(500).json({
@@ -39,6 +40,11 @@ app.post("/room/join", (req, res)=>{
         });
         console.log(`Player ${player.username}#${player.id} failed to join the room #${roomId}`)
     }
+});
+
+app.post("/player/login", (req, res)=>{
+    const {username} = req.body;
+    res.status(200).json({id: generatePlayerId()});
 });
 
 io.on("connection", (socket) => {

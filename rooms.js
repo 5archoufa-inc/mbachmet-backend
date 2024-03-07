@@ -1,17 +1,20 @@
+const { Player } = "./Player";
+
 class Room {
     constuctor(name, ownerId) {
         this.id = generateRoomId();
         this.name = name;
-        this.playerIds = [ownerId];
+        this.owner = addPlayer(ownerId);
     }
 
-    addPlayer(playerId) {
-        if (this.playerIds.includes(playerId)) //Player doesn't exist
-            return false;
+    addPlayer(username, id) {
+        if (this.players.some(player => player.id === id)) //Player doesn't exist
+            return null;
 
         //Add player
-        this.playerIds.push(playerId);
-        return true;
+        player = new Player(username, id);
+        this.players.push(player);
+        return player;
     }
 
     removePlayer(playerId) {
@@ -64,4 +67,4 @@ function generateRoomId() {
     return code;
 }
 
-module.exports = { createRoom, joinRoom }
+module.exports = { Room, createRoom, joinRoom }
