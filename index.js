@@ -44,7 +44,10 @@ app.post("/room/join", (req, res)=>{
 
 app.post("/player/login", (req, res)=>{
     const {username} = req.body;
-    res.status(200).json({id: generatePlayerId()});
+    res.status(200).json({
+        id: generatePlayerId(),
+        username
+    });
 });
 
 io.on("connection", (socket) => {

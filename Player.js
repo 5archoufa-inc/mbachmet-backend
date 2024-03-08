@@ -1,3 +1,9 @@
+let generate6NumerID;
+import('nanoid').then(({ customAlphabet }) => {
+    const numbers = '0123456789';
+    generate6NumerID = customAlphabet(numbers, 6);
+});
+
 class Player {
     constuctor(username, id) {
         this.username = username;
@@ -8,7 +14,7 @@ class Player {
 players = []
 
 function generatePlayerId() {
-    let code = nanoid(6); // Generate a random 6-character code
+    let code = generate6NumerID();
     while (players.some(player => player.id === code)) {
         code = nanoid(6); // Generate a new code if it already exists
     }
