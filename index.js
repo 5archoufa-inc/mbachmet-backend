@@ -1,65 +1,37 @@
 const express = require(`express`);
 const { createServer } = require(`node:http`);
 const { Server } = require(`socket.io`);
-const { Room, createRoom, joinRoom} = require(`./Rooms`);
 const { Player, generatePlayerId } = require(`./Player`);
+const { log, logSessionStart } = require("./utillities/logger");
+const sessionRouter = require("./Routers/SessionRouter");
+const {addSession,removeSession} = require('./Session.js');
+const roomRouter = require("./Routers/RoomRouter.js");
 
 const app = express();
 const server = createServer(app);
 const io = new Server(server);
 
+logSessionStart();
 app.use(express.json());
+
+//Routers
+app.use("/game", sessionRouter);
+app.use("/game", roomRouter);
+
 server.listen(3000, () => {
-    console.log(`server running at http://localhost:3000`);
-});
-
-app.post("/room/create", (req, res) => {
-    const {player, roomName} = req.body;
-    const roomId = createRoom(player.id, roomName);
-    if(roomId != -1){
-        res.status(200).json({
-            roomId
-        });
-        console.log(`Player ${player.username}#${player.id} created the room ${roomName}#${roomId}`)
-    }else{
-        res.status(500).json({
-            error: "Player is already a member of another room."
-        });
-        console.log(`Player ${player.username}#${player.id} failed to create a room named \"${roomName}\"`)
-    }
-});
-
-app.post("/room/join", (req, res)=>{
-    const {player, roomId} = req.body;
-    if(joinRoom(roomId, player.id)){
-        res.status(200).json({roomId});
-        console.log(`Player ${player.username}#${player.id} joined the room #${roomId}`)
-    }else{
-        res.status(500).json({
-            error: "An error occured"
-        });
-        console.log(`Player ${player.username}#${player.id} failed to join the room #${roomId}`)
-    }
-});
-
-app.post("/player/login", (req, res)=>{
-    const {username} = req.body;
-    res.status(200).json({
-        id: generatePlayerId(),
-        username
-    });
+    log(`server running at http://localhost:3000`);
 });
 
 io.on("connection", (socket) => {
-    console.log(`Player <${socket.id}> connected`);
+    addSession(socket.id);
     socket.join("dev");
 
     socket.on("input", (horizontal, vertical) => {
-        //console.log(horizontal, vertical)
+        //log(horizontal, vertical)
         io.to("dev").emit("input", horizontal, vertical);
     });
 
     socket.on("disconnecting", (reason) => {
-        console.log(socket.id, "Player <", socket.id, "disconnected. Reason:", reason)
+        removeSession(socket.id);
     });
 })
