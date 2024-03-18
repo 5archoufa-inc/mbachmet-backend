@@ -2,7 +2,6 @@ const express = require("express");
 const sessionRouter = express.Router();
 const { Player, generatePlayerId } = require(`../Player`);
 const {
-    sessions,
     loginPlayerToSession,
     removeSession
 } = require('../Session.js');
@@ -13,6 +12,9 @@ sessionRouter.post("/session/login", (req, res) => {
 
     const PID = generatePlayerId();
     if (!loginPlayerToSession(session.SID, new Player(PID, username))) {
+        res.status(500).json({
+            error: "Could not login."
+        });
         return;
     }
 

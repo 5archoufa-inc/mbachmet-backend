@@ -24,7 +24,7 @@ roomRouter.post("/room/create", (req, res) => {
     const room = createRoom(roomTitle, player);
     if (room) {
         res.status(200).json({
-            room
+            roomId: room.id
         });
         log(`${player} created ${room}`)
     } else {

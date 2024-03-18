@@ -1,9 +1,10 @@
 const { log } = require('./utillities/logger');
+const EventEmitter = require('events');
 
-let sessions = []
 class Session {
-    constructor(SID) {
-        this.SID = SID;
+    constructor(socket) {
+        this.socket = socket;
+        this.SID = socket.id;
         this.player = null;
     }
 
@@ -19,29 +20,34 @@ class Session {
     }
 }
 
+///SESSIONS
+let sessions = []
+
+///EVENTS
+const sessionsEvent = new EventEmitter();
+
+///LOGIC
 function getSessionBySID(SID) {
     return sessions.find(session => session.SID === SID);
 }
 function getPlayerBySID(SID) {
     return sessions.find(session => session.SID === SID).player;
 }
-
-function getPlayerByID(ID) {
+function getPlayerByPID(ID) {
     return sessions.find(session => session.player != null && session.player.ID === ID).player;
 }
 
 /**
  * Adds a new session. The player isn't necessarily
- * logged in, and they can be tracked using only
- * their SID.
+ * logged in, and they are tracked using their socket and SID (socket ID).
  */
-function addSession(SID) {
-    if (sessions.some(session => session.SID === SID)) {
-        log(`Could not add the same session twice for socket id: ${SID}`);
+function addSession(socket) {
+    if (sessions.some(session => session.SID === socket.id)) {
+        log(`Could not add the same session twice for socket id: ${socket.SID}`);
         return false;
     }
 
-    const session = new Session(SID);
+    const session = new Session(socket);
     sessions.push(session);
     log(`${session} started.`);
     return true;
@@ -53,16 +59,26 @@ function addSession(SID) {
  */
 function loginPlayerToSession(SID, player) {
     const session = getSessionBySID(SID);
+    //check if the session exists
     if (!session) {
-        log(`Could not login player to session[SID:${SID}]: session unexisting`);
+        log(`Could not login player to unexisting session of SID:${SID}`);
         return false;
     }
+    //check if the player is already logged in
+    const existingPlayer = getPlayerByPID(player.PID);
+    if(existingPlayer != null){
+        log(`${player} failed to login from 2 different devices at the same time`);
+        return false;
+    }
+
+    //Login
     session.setPlayer(player);
+    sessionsEvent.emit("login", session, player);
     log(`${player} logged in.`);
     return true;
 }
 
-function logoutPlayerFromSession(SID) {
+function logoutPlayerFromSession(SID, triggerEvent = true) {
     const session = getSessionBySID(SID);
     if (!session) {
         log(`Could not logout from session[SID:${SID}]: session unexisting.`);
@@ -71,7 +87,9 @@ function logoutPlayerFromSession(SID) {
 
     const player = session.player;
     session.setPlayer(null);
-    log(`${player} logged off from ${session}.`);
+    log(`${player} logged out from ${session}.`);
+    if (triggerEvent)
+        sessionsEvent.emit("logout", session, player);
     return true;
 }
 
@@ -92,14 +110,16 @@ function removeSession(SID) {
     }
     sessions.splice(sessionIndex);
     log(`${session} terminated.`);
+    sessionsEvent.emit("terminate", session);
     return true;
 }
 
+///EXPORTS
 module.exports = {
-    sessions,
     addSession,
     loginPlayerToSession,
     removeSession,
     getPlayerBySID,
-    getPlayerByID
+    getPlayerByPID,
+    sessionsEvent
 }

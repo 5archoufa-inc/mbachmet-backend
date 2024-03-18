@@ -8,6 +8,8 @@ class Player {
     constructor(PID, username) {
         this.PID = PID;
         this.username = username;
+
+        this.room = null;
     }
 
     toString() {
