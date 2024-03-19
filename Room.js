@@ -3,12 +3,11 @@ const { sessionsEvent } = require("./Session");
 const { log } = require('./utillities/logger');
 
 class Room {
-    constructor(title, owner) {
-        this.id = owner.PID;
+    constructor(title, hostSession) {
+        this.id = hostSession.SID;
         this.title = title;
         this.players = [];
-        this.addPlayer(owner);
-        this.ownerIndex = 0;
+        this.hostSession = hostSession;
     }
 
     addPlayer(player) {
@@ -41,14 +40,6 @@ class Room {
         return `ROOM[${this.title}#${this.id}<(${this.players.length})players>]`;
     }
 
-    setOwner(playerIndex) {
-        this.ownerIndex = playerIndex;
-    }
-
-    getOwner(){
-        return this.players[this.ownerIndex];
-    }
-
     /**
      * Is called when a room is destroyed and removed from the list of rooms.
      * Kicks out all players from the room
@@ -58,9 +49,8 @@ class Room {
             this.removePlayer(player.PID);
         })
         this.id = null;
-        this.ownerIndex = -1;
+        this.hostSession = null;
         this.title = null;
-        //Allert players
     }
 }
 
@@ -72,21 +62,31 @@ sessionsEvent.on("logout", (session, player) => {
     if (player.room == null)
         return;
 
-    removePlayerFromRoom(player.room.id, player.PID);
+    player.room.removePlayer(player.PID);
 });
+
+sessionsEvent.on("terminate", (session) => {
+    for (const room of rooms) {
+        if (room.hostSession.SID === session.SID) {
+            destroyRoom(room.id);
+            break;
+        }
+    }
+})
 
 
 ///LOGIC
 /**
  * Can only create a room of the owner exists and does not belong to any other room.
  */
-function createRoom(title, owner) {
-    if(owner.room != null)
-        return null;
-    if (rooms.some(room => room.hasPlayer(owner.PID)))
-        return null;
+function createRoom(title, hostSession) {
+    for(const room of rooms){
+        if(room.hostSession.SID === hostSession.SID){
+            throw new Error(`${hostSession} is already hosting ${room}.`);
+        }
+    }
 
-    const room = new Room(title, owner);
+    const room = new Room(title, hostSession);
     rooms.push(room);
     return room;
 }
@@ -100,34 +100,6 @@ function destroyRoom(roomId) {
             break;
         }
     }
-}
-
-function removePlayerFromRoom(roomId, PID) {
-    const room = getRoomOfId(roomId);
-    if (room == null || !room.hasPlayer(PID))
-        return false;
-
-    if (room.getOwner().PID === PID)//Trying to remove the room owner
-    {
-        if (room.players.length > 1) //Change the room owner
-        {
-            for (let i = 0; i < room.players.length; i++) {
-                if (room.players[i].PID !== PID) {
-                    room.setOwner(i);
-                    log(`Owner of ${room} logged out. New owner is ${room.players[i]}`);
-                    break;
-                }
-            }
-            room.removePlayer(PID);
-        } else //Destroy the room
-        {
-            log(`Owner of ${room} logged out. No players left.`);
-            destroyRoom(roomId);
-        }
-    } else {
-        room.removePlayer(PID);
-    }
-    return true;
 }
 
 function getRoomOfId(id) {

@@ -10,7 +10,7 @@ const { db } = require(`../Database.js`);
 
 // Route definitions
 sessionRouter.post("/session/login", async (req, res) => {
-    const { session, identifier, password } = req.body;
+    const { sessionInfo, identifier, password } = req.body;
     //The identifier can be a phone number or an email 
 
     log(`New connection attempt with identifier(${identifier}) and password(${password})`);
@@ -30,7 +30,7 @@ sessionRouter.post("/session/login", async (req, res) => {
             const accountData = accountDoc.data();
             if (accountData.password === password) {
                 const player = new Player(accountDoc.id, accountData.username, accountData.email, accountData.phone_number);
-                if (!loginPlayerToSession(session.SID, player)) {
+                if (!loginPlayerToSession(sessionInfo.SID, player)) {
                     res.status(500).json({
                         error: "Could not login from 2 different accounts on the same session."
                     });

@@ -1,10 +1,9 @@
 const express = require("express");
 const roomRouter = express.Router();
-const {log} = require("../utillities/logger.js");
-const { Room, createRoom, joinRoom } = require(`../Room.js`);
-const { Player } = require(`../Player.js`);
-const { getPlayerBySID } = require(`../Session.js`);
-const {db} = require(`../Database.js`);
+const { log } = require("../utillities/logger.js");
+const { createRoom, joinRoom } = require(`../Room.js`);
+const { getSessionBySID } = require(`../Session.js`);
+const { db } = require(`../Database.js`);
 
 const {
     sessions,
@@ -14,39 +13,43 @@ const {
 
 // Route definitions
 roomRouter.post("/room/create", (req, res) => {
-    const { session, roomTitle } = req.body;
-    const player = getPlayerBySID(session.SID);
-    if(player == null){
-        log(`Something went wrong, no records of player at session SID[${session.SID}].`);
+    const { sessionInfo, roomTitle } = req.body;
+
+    const session = getSessionBySID(sessionInfo.SID);
+    if(session == null){
+        res.status(500).json({
+            error: `No records of a session with SID:${sessionInfo.SID}`
+        });
+        log(`Failed to create a room: No records of a session with SID:${sessionInfo.SID}`);
         return;
     }
 
-    log(`${player} is trying to create a room of title[${roomTitle}]`)
-    const room = createRoom(roomTitle, player);
-    if (room) {
+    log(`${session} is trying to create a room of title[${roomTitle}]`)
+    try{
+        const room = createRoom(roomTitle, session);
         res.status(200).json({
             roomId: room.id
         });
-        log(`${player} created ${room}`)
-    } else {
+        log(`${session} successfully created ${room}`)
+    }catch(error){
         res.status(500).json({
-            error: "Player is already a member of another room."
+            error
         });
-        log(`${player} failed to create a room of title[${roomTitle}]`)
-    }
+        log(`${session} failed to create a room: ${error}`)
+    };
 });
 
 roomRouter.post("/room/join", (req, res) => {
-    const { player, roomId } = req.body;
-    
-    if (joinRoom(roomId, player.PID)) {
+    const { playerInfo, roomId } = req.body;
+
+    if (joinRoom(roomId, playerInfo.PID)) {
         res.status(200).json({ roomId });
-        log(`Player ${player.username}#${player.PID} joined the room #${roomId}`)
+        log(`Player ${playerInfo.username}#${playerInfo.PID} joined the room #${roomId}`)
     } else {
         res.status(500).json({
             error: "An error occured"
         });
-        log(`Player ${player.username}#${player.PID} failed to join the room #${roomId}`);
+        log(`Player ${playerInfo.username}#${playerInfo.PID} failed to join the room #${roomId}`);
     }
 });
 

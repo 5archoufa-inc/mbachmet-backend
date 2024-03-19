@@ -120,5 +120,6 @@ module.exports = {
     removeSession,
     getPlayerBySID,
     getPlayerByPID,
+    getSessionBySID,
     sessionsEvent
 }
