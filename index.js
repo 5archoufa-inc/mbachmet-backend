@@ -1,7 +1,6 @@
 const express = require(`express`);
 const { createServer } = require(`node:http`);
 const { Server } = require(`socket.io`);
-const { Player, generatePlayerId } = require(`./Player`);
 const { log, logSessionStart } = require("./utillities/logger");
 const sessionRouter = require("./routers/SessionRouter.js");
 const { addSession, removeSession } = require('./Session.js');
@@ -27,15 +26,20 @@ io.use((socket, next) => {
 app.use(require("cors")());
 app.use(express.json());
 
-logSessionStart();
+//Middleware to check if database is connected.
+const { getDb } = require("./database/Database.js");
+app.use((req, res, next) => {
+    const db = getDb();
+    if (db) {
+        next();
+    } else {
+        res.status(500).json({ error: "Error connecting to the database." });
+    }
+});
 
 //Routers
 app.use("/game", sessionRouter);
 app.use("/game", roomRouter);
-
-server.listen(3000, () => {
-    log(`server running at http://localhost:3000`);
-});
 
 io.on("connection", (socket) => {
     addSession(socket);
@@ -50,3 +54,14 @@ io.on("connection", (socket) => {
         removeSession(socket.id);
     });
 })
+
+const { connectToFirestore } = require('./database/Database.js');
+async function startServer() {
+    logSessionStart();
+    connectToFirestore();
+    server.listen(3000, () => {
+        log(`server running at http://localhost:3000`);
+    });
+}
+
+startServer();

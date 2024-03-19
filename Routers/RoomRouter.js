@@ -3,7 +3,7 @@ const roomRouter = express.Router();
 const { log } = require("../utillities/logger.js");
 const { createRoom, joinRoom } = require(`../Room.js`);
 const { getSessionBySID } = require(`../Session.js`);
-const { db } = require(`../Database.js`);
+const { db } = require(`../database/Database.js`);
 
 const {
     sessions,

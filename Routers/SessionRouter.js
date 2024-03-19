@@ -6,13 +6,13 @@ const {
     loginPlayerToSession,
     removeSession
 } = require('../Session.js');
-const { db } = require(`../Database.js`);
+const { getDb } = require(`../database/Database.js`);
 
 // Route definitions
 sessionRouter.post("/session/login", async (req, res) => {
+    const db = getDb();
     const { sessionInfo, identifier, password } = req.body;
     //The identifier can be a phone number or an email 
-
     log(`New connection attempt with identifier(${identifier}) and password(${password})`);
     //Try login with an email
     try {

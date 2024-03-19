@@ -5,7 +5,7 @@ const now = ()=> new Date().toLocaleTimeString([], { hour12: false });
 
 function logSessionStart(){
     const time = now();
-    writeToLogs("^^^^^^ NEW SESSION [" + time + "] ^^^^^^\n");
+    log("^^^^^^ NEW SESSION [" + time + "] ^^^^^^\n");
 }
 
 function log(msg) {
