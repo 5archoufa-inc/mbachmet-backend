@@ -14,7 +14,7 @@ class Session {
 
     toString() {
         if (this.player)
-            return `SESSION[${this.SID}#${this.player.ID}#${this.player.username}]`
+            return `SESSION[${this.SID}#${this.player.username}#${this.player.PID}]`
         else
             return `SESSION[${this.SID}#NOT_LOGGED_IN]`
     }
@@ -33,8 +33,8 @@ function getSessionBySID(SID) {
 function getPlayerBySID(SID) {
     return sessions.find(session => session.SID === SID).player;
 }
-function getPlayerByPID(ID) {
-    return sessions.find(session => session.player != null && session.player.ID === ID).player;
+function getPlayerByPID(PID) {
+    return sessions.find(session => session.player?.PID === PID)?.player;
 }
 
 /**
@@ -61,8 +61,7 @@ function loginPlayerToSession(SID, player) {
     const session = getSessionBySID(SID);
     //check if the session exists
     if (!session) {
-        log(`Could not login player to unexisting session of SID:${SID}`);
-        return false;
+        throw new Error(`Could not login player to unexisting session of SID:${SID}`);
     }
     //check if the player is already logged in
     const existingPlayer = getPlayerByPID(player.PID);
@@ -73,8 +72,8 @@ function loginPlayerToSession(SID, player) {
 
     //Login
     session.setPlayer(player);
+    log(`${player} logged in to ${session}`);
     sessionsEvent.emit("login", session, player);
-    log(`${player} logged in.`);
     return true;
 }
 

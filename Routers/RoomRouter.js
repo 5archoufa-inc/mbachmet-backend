@@ -2,8 +2,9 @@ const express = require("express");
 const roomRouter = express.Router();
 const {log} = require("../utillities/logger.js");
 const { Room, createRoom, joinRoom } = require(`../Room.js`);
-const { Player } = require(`../Player`);
+const { Player } = require(`../Player.js`);
 const { getPlayerBySID } = require(`../Session.js`);
+const {db} = require(`../Database.js`);
 
 const {
     sessions,

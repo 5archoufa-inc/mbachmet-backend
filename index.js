@@ -3,9 +3,9 @@ const { createServer } = require(`node:http`);
 const { Server } = require(`socket.io`);
 const { Player, generatePlayerId } = require(`./Player`);
 const { log, logSessionStart } = require("./utillities/logger");
-const sessionRouter = require("./Routers/SessionRouter");
+const sessionRouter = require("./routers/SessionRouter.js");
 const { addSession, removeSession } = require('./Session.js');
-const roomRouter = require("./Routers/RoomRouter.js");
+const roomRouter = require("./routers/RoomRouter.js");
 
 const app = express();
 const server = createServer(app);
