@@ -26,15 +26,23 @@ io.use((socket, next) => {
 app.use(require("cors")());
 app.use(express.json());
 
-//Middleware to check if database is connected.
+//Middleware to check if requests in general can pass in safely.
 const { getDb } = require("./database/Database.js");
 app.use((req, res, next) => {
+    //Check database connectivity
     const db = getDb();
-    if (db) {
-        next();
-    } else {
+    if (db == null) {
         res.status(500).json({ error: "Error connecting to the database." });
+        return;
     }
+    //Check if sessionInfo is available
+    if (req.method === "POST") {
+        if (req.body.sessionInfo == null) {
+            res.status(500).json({ error: "You must provide sessionInfo." });
+            return;
+        }
+    }
+    next();
 });
 
 //Routers

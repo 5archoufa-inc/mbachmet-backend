@@ -1,3 +1,838 @@
+[14:49:09]:: ROOM[Zeineb's Room#243470<(0)players>] removed PLAYER[void#wfcnPC5402zP31jUfWi9]
+[14:49:01]:: PLAYER[void#wfcnPC5402zP31jUfWi9] joined ROOM[Zeineb's Room#243470<(1)players>]
+[14:48:58]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[CX9bjBqh4LvYSJIUAAAN#void#wfcnPC5402zP31jUfWi9]
+[14:48:57]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[14:48:56]:: SESSION[CX9bjBqh4LvYSJIUAAAN#NOT_LOGGED_IN] started.
+[14:48:47]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[tbZ_C-ke3560wO3mAAAK#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:48:46]:: SESSION[tbZ_C-ke3560wO3mAAAK#NOT_LOGGED_IN] is trying to create a room of title[Zeineb's Room]
+[14:48:46]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:48:46]:: SESSION[tbZ_C-ke3560wO3mAAAK#NOT_LOGGED_IN] started.
+[14:48:41]:: Destroyed ROOM[Zeineb's Room#419263<(0)players>].
+[14:48:24]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[vTWKLm12-qMnU7ZNAAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:48:23]:: SESSION[vTWKLm12-qMnU7ZNAAAH#NOT_LOGGED_IN] is trying to create a room of title[Zeineb's Room]
+[14:48:23]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:48:23]:: SESSION[vTWKLm12-qMnU7ZNAAAH#NOT_LOGGED_IN] started.
+[14:48:06]:: SESSION[agnPQ5-WJj93reGSAAAE#NOT_LOGGED_IN] terminated.
+[14:47:27]:: SESSION[agnPQ5-WJj93reGSAAAE#NOT_LOGGED_IN] started.
+[14:39:19]:: SESSION[stRLXeYqfs9xyeZmAAAB#NOT_LOGGED_IN] terminated.
+[14:39:05]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[stRLXeYqfs9xyeZmAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:39:03]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:38:59]:: SESSION[stRLXeYqfs9xyeZmAAAB#NOT_LOGGED_IN] started.
+[14:38:59]:: server running at http://localhost:3000
+[14:38:52]:: SESSION[tBM5ChXNFEdJTxBZAAAB#NOT_LOGGED_IN] started.
+[14:38:52]:: Connected to firestore
+[14:38:48]:: SESSION[Vhub37-NxlKKCy8HAAAB#NOT_LOGGED_IN] started.
+[14:38:47]:: server running at http://localhost:3000
+[14:38:34]:: SESSION[hJC-Asbns6egWO6TAAAB#NOT_LOGGED_IN] started.
+[14:38:34]:: Connected to firestore
+[14:38:27]:: SESSION[kB1PNXD9TxanD0MLAAAB#NOT_LOGGED_IN] started.
+[14:38:27]:: Connected to firestore
+[14:38:07]:: SESSION[7ljpxd8zKJZqaXhPAAAB#NOT_LOGGED_IN] started.
+[14:38:07]:: Connected to firestore
+[14:37:54]:: SESSION[wvlfnbNpHA1lgCwLAAAB#NOT_LOGGED_IN] started.
+[14:37:53]:: Connected to firestore
+[14:37:49]:: SESSION[Ktgp_uuG00EG5tkKAAAB#NOT_LOGGED_IN] started.
+[14:37:49]:: server running at http://localhost:3000
+[14:36:33]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged out from SESSION[8GjeCCA0WtFSVrPfAAAH#NOT_LOGGED_IN].
+[14:35:14]:: PLAYER[void#wfcnPC5402zP31jUfWi9] joined ROOM[Zeineb's Room#282033<(1)players>]
+[14:35:13]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[8GjeCCA0WtFSVrPfAAAH#void#wfcnPC5402zP31jUfWi9]
+[14:35:12]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[14:35:12]:: SESSION[8GjeCCA0WtFSVrPfAAAH#NOT_LOGGED_IN] started.
+[14:34:26]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[O1wqh8Pu2r8ddcwkAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:34:25]:: SESSION[O1wqh8Pu2r8ddcwkAAAE#NOT_LOGGED_IN] successfully created ROOM[Zeineb's Room#282033<(0)players>]
+[14:34:25]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:34:24]:: SESSION[O1wqh8Pu2r8ddcwkAAAE#NOT_LOGGED_IN] started.
+[14:33:09]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[aJWxeHnNDYTDU__eAAAB#NOT_LOGGED_IN].
+[14:33:00]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[aJWxeHnNDYTDU__eAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:32:58]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:32:57]:: SESSION[aJWxeHnNDYTDU__eAAAB#NOT_LOGGED_IN] started.
+[14:32:56]:: Connected to firestore
+[14:32:39]:: SESSION[9-Twe92obigbyvH3AAAB#NOT_LOGGED_IN] started.
+[14:32:39]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:32:39]:: server running at http://localhost:3000
+[14:31:38]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[4oN0EjTDZrODOo0lAAAQ#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:31:38]:: SESSION[4oN0EjTDZrODOo0lAAAQ#NOT_LOGGED_IN] is trying to create a room of title[Zeineb's Room]
+[14:31:38]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:31:37]:: SESSION[4oN0EjTDZrODOo0lAAAQ#NOT_LOGGED_IN] started.
+[14:31:31]:: Destroyed ROOM[Zeineb's Room#694783<(0)players>].
+[14:31:28]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[xWzl0ICGdCOVEZ0rAAAN#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:31:27]:: SESSION[xWzl0ICGdCOVEZ0rAAAN#NOT_LOGGED_IN] is trying to create a room of title[Zeineb's Room]
+[14:31:27]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:31:26]:: SESSION[xWzl0ICGdCOVEZ0rAAAN#NOT_LOGGED_IN] started.
+[14:31:02]:: Destroyed ROOM[Zeineb's Room#680981<(0)players>].
+[14:30:58]:: SESSION[IQa6DUHuvOMYbRP9AAAK#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Zeineb's Room#680981<(0)players>]
+[14:30:58]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[IQa6DUHuvOMYbRP9AAAK#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:30:57]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:30:56]:: SESSION[IQa6DUHuvOMYbRP9AAAK#NOT_LOGGED_IN] started.
+[14:29:37]:: Destroyed ROOM[Zeineb's Room#824659<(0)players>].
+[14:29:32]:: Could not remove unexisting session of socket id: 1bVlIOpOdU5kkiRQAAAE
+[14:28:24]:: SESSION[XkJ11oZ_LIb6Tya5AAAH#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Zeineb's Room#824659<(0)players>]
+[14:28:23]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[XkJ11oZ_LIb6Tya5AAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:28:22]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:28:22]:: SESSION[XkJ11oZ_LIb6Tya5AAAH#NOT_LOGGED_IN] started.
+[14:28:18]:: login error: Error: Could not login player to unexisting session of SID:KioMeYFk9zw3PW_1AAAB
+[14:28:18]:: SESSION[KioMeYFk9zw3PW_1AAAB#NOT_LOGGED_IN] terminated.
+[14:28:17]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:28:15]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[1bVlIOpOdU5kkiRQAAAE#void#wfcnPC5402zP31jUfWi9]
+[14:28:14]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[14:28:13]:: SESSION[1bVlIOpOdU5kkiRQAAAE#NOT_LOGGED_IN] started.
+[14:27:46]:: SESSION[KioMeYFk9zw3PW_1AAAB#NOT_LOGGED_IN] started.
+[14:27:46]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:27:46]:: server running at http://localhost:3000
+[14:27:27]:: SESSION[h2UvHD8CTt-WA6WOAAAB#NOT_LOGGED_IN] started.
+[14:27:27]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:27:27]:: Connected to firestore
+[14:27:25]:: SESSION[AT71ieAIHCugEiRKAAAB#NOT_LOGGED_IN] started.
+[14:27:24]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:27:24]:: Connected to firestore
+[14:26:49]:: SESSION[WoO-4Tko5uCd1oh5AAAB#NOT_LOGGED_IN] started.
+[14:26:48]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:26:48]:: Connected to firestore
+[14:26:14]:: SESSION[Kd_98NppJf3kPsRdAAAB#NOT_LOGGED_IN] started.
+[14:26:14]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:26:14]:: Connected to firestore
+[14:25:57]:: SESSION[j1kPZ5o8yj1-odCYAAAB#NOT_LOGGED_IN] started.
+[14:25:57]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:25:57]:: server running at http://localhost:3000
+[14:25:55]:: SESSION[DTI9WKZL3I8yiZkCAAAB#NOT_LOGGED_IN] started.
+[14:25:55]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:25:55]:: server running at http://localhost:3000
+[14:25:46]:: SESSION[8y1bka95uAw7Lx3aAAAB#NOT_LOGGED_IN] started.
+[14:25:46]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:25:46]:: Connected to firestore
+[14:25:15]:: SESSION[cF60azisa3vWlAcGAAAB#NOT_LOGGED_IN] started.
+[14:25:15]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:25:15]:: ^^^^^^ NEW SESSION [14:25:15] ^^^^^^
+
+[14:24:50]:: SESSION[2z8HnmKSS7IViD4JAAAB#NOT_LOGGED_IN] started.
+[14:24:49]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:24:49]:: Connected to firestore
+[14:24:24]:: SESSION[n8XATJUFjFQI2SGBAAAB#NOT_LOGGED_IN] started.
+[14:24:23]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:24:23]:: Connected to firestore
+[14:24:13]:: SESSION[cMX81gmJsMUzI-zeAAAB#NOT_LOGGED_IN] started.
+[14:24:13]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:24:13]:: server running at http://localhost:3000
+[14:23:11]:: SESSION[gOxnMe5yvKbCNokrAAAB#NOT_LOGGED_IN] started.
+[14:23:11]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:23:11]:: server running at http://localhost:3000
+[14:23:09]:: SESSION[sHv-dbV4acrFdZcnAAAB#NOT_LOGGED_IN] started.
+[14:23:09]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:23:09]:: Connected to firestore
+[14:22:58]:: SESSION[qXTJVLeqYJRBQJz2AAAB#NOT_LOGGED_IN] started.
+[14:22:58]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:22:58]:: Connected to firestore
+[14:22:56]:: SESSION[-RelepHZm8LhEufIAAAB#NOT_LOGGED_IN] started.
+[14:22:56]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:22:56]:: Connected to firestore
+[14:22:25]:: SESSION[kTFD0ULOML1dtpJRAAAB#NOT_LOGGED_IN] started.
+[14:22:25]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:22:25]:: Connected to firestore
+[14:20:57]:: SESSION[PtNuNKety3Zhv3uZAAAB#NOT_LOGGED_IN] started.
+[14:20:57]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:20:57]:: Connected to firestore
+[14:20:56]:: SESSION[_dPWKlOGZ7LC-72jAAAB#NOT_LOGGED_IN] started.
+[14:20:55]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:20:55]:: Connected to firestore
+[14:20:25]:: SESSION[tXjg9Y5Jss-LAr93AAAB#NOT_LOGGED_IN] started.
+[14:20:25]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:20:25]:: Connected to firestore
+[14:20:04]:: SESSION[BaMTw89S41VY9SH7AAAB#NOT_LOGGED_IN] started.
+[14:20:04]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:20:04]:: server running at http://localhost:3000
+[14:19:47]:: SESSION[U40PBML5Aqf59iRPAAAB#NOT_LOGGED_IN] started.
+[14:19:46]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:19:46]:: Connected to firestore
+[14:16:36]:: SESSION[vSh2S_uvtKI9-C1AAAAB#NOT_LOGGED_IN] started.
+[14:16:36]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:16:36]:: Connected to firestore
+[14:15:40]:: SESSION[-7O3xroyHc0ZoUxBAAAB#NOT_LOGGED_IN] started.
+[14:15:39]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:15:39]:: server running at http://localhost:3000
+[14:15:28]:: SESSION[HAR9BBWteVdEs3JWAAAB#NOT_LOGGED_IN] started.
+[14:15:27]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:15:27]:: Connected to firestore
+[14:14:59]:: SESSION[W86J8IH1_gAql_g0AAAB#NOT_LOGGED_IN] started.
+[14:14:59]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:14:59]:: server running at http://localhost:3000
+[14:14:58]:: SESSION[4pNzZNvlGNr20NzoAAAB#NOT_LOGGED_IN] started.
+[14:14:58]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:14:58]:: Connected to firestore
+[14:14:57]:: SESSION[uxnfGzoXYoUk6ceaAAAB#NOT_LOGGED_IN] started.
+[14:14:57]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:14:57]:: Connected to firestore
+[14:14:05]:: SESSION[elOCxrrNZNZtvrjcAAAB#NOT_LOGGED_IN] started.
+[14:14:05]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:14:05]:: Connected to firestore
+[14:13:28]:: SESSION[ZU7Ax1aJdbuhUnO6AAAB#NOT_LOGGED_IN] started.
+[14:13:28]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:13:28]:: Connected to firestore
+[14:13:27]:: SESSION[12JVTOIHgUnAKSSTAAAB#NOT_LOGGED_IN] started.
+[14:13:26]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:13:26]:: Connected to firestore
+[14:13:11]:: SESSION[iYG7EF3hAIflqRQjAAAB#NOT_LOGGED_IN] started.
+[14:13:10]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:13:10]:: server running at http://localhost:3000
+[14:12:44]:: SESSION[j4aH5jCP22zspfFYAAAB#NOT_LOGGED_IN] started.
+[14:12:44]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:44]:: Connected to firestore
+[14:12:40]:: SESSION[2AwBChjj_t-ZdxbhAAAB#NOT_LOGGED_IN] started.
+[14:12:40]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:40]:: server running at http://localhost:3000
+[14:12:37]:: SESSION[s1xzyP8-dP9vB7_KAAAB#NOT_LOGGED_IN] started.
+[14:12:37]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:37]:: server running at http://localhost:3000
+[14:12:16]:: SESSION[Q-ZPJEx7tzLvcoJoAAAB#NOT_LOGGED_IN] started.
+[14:12:16]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:16]:: Connected to firestore
+[14:12:04]:: SESSION[QjnPRZkxpHqx6mi1AAAB#NOT_LOGGED_IN] started.
+[14:12:04]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:04]:: Connected to firestore
+[14:12:01]:: SESSION[UPyZ35ega17LXgRdAAAB#NOT_LOGGED_IN] started.
+[14:12:01]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:12:01]:: server running at http://localhost:3000
+[14:11:49]:: SESSION[5JFHL8D7eUd4hvkqAAAB#NOT_LOGGED_IN] started.
+[14:11:49]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:11:49]:: Connected to firestore
+[14:11:21]:: SESSION[ro4EtwfHtTixVvzKAAAB#NOT_LOGGED_IN] started.
+[14:11:21]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:11:21]:: Connected to firestore
+[14:10:57]:: SESSION[FsS29JUrcJKzmP0BAAAB#NOT_LOGGED_IN] started.
+[14:10:57]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:10:57]:: server running at http://localhost:3000
+[14:10:44]:: SESSION[4lBOEwuiQi-oyQ90AAAB#NOT_LOGGED_IN] started.
+[14:10:44]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:10:44]:: Connected to firestore
+[14:10:35]:: SESSION[O1K0Wnv4kfnMKk6jAAAB#NOT_LOGGED_IN] started.
+[14:10:35]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:10:35]:: Connected to firestore
+[14:09:55]:: SESSION[c75ek3R5nP3ECsxiAAAB#NOT_LOGGED_IN] started.
+[14:09:55]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:09:55]:: server running at http://localhost:3000
+[14:09:31]:: SESSION[luqt8V_3s477yS8FAAAB#NOT_LOGGED_IN] started.
+[14:09:31]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:09:31]:: Connected to firestore
+[14:09:30]:: SESSION[zKd_qH6Jd5MC5cyQAAAB#NOT_LOGGED_IN] started.
+[14:09:30]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[14:09:30]:: Connected to firestore
+[14:08:38]:: SESSION[-wG_Wwl_xRPcHdmGAAAH#NOT_LOGGED_IN] terminated.
+[14:08:04]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[-wG_Wwl_xRPcHdmGAAAH#void#wfcnPC5402zP31jUfWi9]
+[14:08:03]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[14:08:02]:: SESSION[-wG_Wwl_xRPcHdmGAAAH#NOT_LOGGED_IN] started.
+[14:07:31]:: SESSION[Qt5G1dylcbWg5_fTAAAE#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Zeineb's Room#540801<(0)players>]
+[14:07:29]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[Qt5G1dylcbWg5_fTAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[14:07:28]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[14:07:27]:: SESSION[Qt5G1dylcbWg5_fTAAAE#NOT_LOGGED_IN] started.
+[13:54:14]:: SESSION[u0HdYcJ4i139p0Q3AAAB#NOT_LOGGED_IN] terminated.
+[13:53:28]:: SESSION[u0HdYcJ4i139p0Q3AAAB#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
+[13:53:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[u0HdYcJ4i139p0Q3AAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:53:25]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:53:25]:: SESSION[u0HdYcJ4i139p0Q3AAAB#NOT_LOGGED_IN] started.
+[13:53:25]:: (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+[13:53:25]:: Connected to firestore
+[13:52:01]:: SESSION[ttRXm4TySc1YW6ndAAAB#rukki#LgxFkdL2qcICFnGwdqoi] failed to create a room: TypeError: generateRoomId is not a function
+[13:52:00]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[ttRXm4TySc1YW6ndAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:51:58]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:51:58]:: SESSION[ttRXm4TySc1YW6ndAAAB#NOT_LOGGED_IN] started.
+[13:51:58]:: Connected to firestore
+[13:51:48]:: SESSION[miwMyCho3KE23CH1AAAB#NOT_LOGGED_IN] started.
+[13:51:48]:: server running at http://localhost:3000
+[13:51:06]:: SESSION[3_bBibwJMe3gulw8AAAB#NOT_LOGGED_IN] started.
+[13:51:05]:: Connected to firestore
+[13:50:56]:: Connected to firestore
+[13:50:29]:: SESSION[1U9Jrymq4QLo3aCxAAAB#rukki#LgxFkdL2qcICFnGwdqoi] failed to create a room: TypeError: generateRoomId is not a function
+[13:50:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[1U9Jrymq4QLo3aCxAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:50:26]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:50:25]:: SESSION[1U9Jrymq4QLo3aCxAAAB#NOT_LOGGED_IN] started.
+[13:50:24]:: Connected to firestore
+[13:50:22]:: SESSION[xvQC7MepQW6UWBzMAAAB#NOT_LOGGED_IN] started.
+[13:50:22]:: server running at http://localhost:3000
+[13:49:17]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[VIgKDkLnbl-nsZlXAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:49:16]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:49:15]:: SESSION[VIgKDkLnbl-nsZlXAAAB#NOT_LOGGED_IN] started.
+[13:49:15]:: Connected to firestore
+[13:49:01]:: SESSION[E5Yi8NBQA9JxfMaTAAAB#rukki#LgxFkdL2qcICFnGwdqoi] failed to create a room: TypeError: generateRoomId is not a function
+[13:48:59]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[E5Yi8NBQA9JxfMaTAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:48:58]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:48:55]:: SESSION[E5Yi8NBQA9JxfMaTAAAB#NOT_LOGGED_IN] started.
+[13:48:55]:: server running at http://localhost:3000
+[13:47:32]:: SESSION[_a88jYqrsddcJua0AAAE#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
+[13:47:30]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[_a88jYqrsddcJua0AAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:47:29]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:47:28]:: SESSION[_a88jYqrsddcJua0AAAE#NOT_LOGGED_IN] started.
+[13:47:24]:: SESSION[TEgy6WvBxxLirwvrAAAB#NOT_LOGGED_IN] terminated.
+[13:47:18]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[TEgy6WvBxxLirwvrAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:47:16]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:47:12]:: SESSION[TEgy6WvBxxLirwvrAAAB#NOT_LOGGED_IN] started.
+[13:47:12]:: server running at http://localhost:3000
+[13:37:52]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged out from SESSION[kMxZJsBeTYI3c8wDAAAF#NOT_LOGGED_IN].
+[13:37:48]:: SESSION[jVSXj9WlT8mTQ9jUAAAC#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
+[13:37:39]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[kMxZJsBeTYI3c8wDAAAF#void#wfcnPC5402zP31jUfWi9]
+[13:37:38]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[13:37:38]:: SESSION[kMxZJsBeTYI3c8wDAAAF#NOT_LOGGED_IN] started.
+[13:37:36]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[jVSXj9WlT8mTQ9jUAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[13:37:31]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[13:37:30]:: SESSION[jVSXj9WlT8mTQ9jUAAAC#NOT_LOGGED_IN] started.
+[13:35:42]:: Connected to firestore
+[04:24:58]:: server running at http://localhost:3000
+[04:24:54]:: Connected to firestore
+[04:24:30]:: SESSION[0bDWim2vs89-RtDFAAAE#NOT_LOGGED_IN] terminated.
+[04:24:29]:: Destroyed ROOM[Zeineb's Room#InvSuy2wpBVGPHhLAAAH<(0)players>].
+[04:24:20]:: SESSION[InvSuy2wpBVGPHhLAAAH#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
+[04:24:15]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[InvSuy2wpBVGPHhLAAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:24:14]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:24:13]:: SESSION[InvSuy2wpBVGPHhLAAAH#NOT_LOGGED_IN] started.
+[04:24:01]:: PLAYER[void#wfcnPC5402zP31jUfWi9] logged in to SESSION[0bDWim2vs89-RtDFAAAE#void#wfcnPC5402zP31jUfWi9]
+[04:23:59]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:23:59]:: SESSION[0bDWim2vs89-RtDFAAAE#NOT_LOGGED_IN] started.
+[04:23:48]:: SESSION[5udK0KAMMSwE2uBNAAAB#NOT_LOGGED_IN] terminated.
+[04:23:16]:: SESSION[5udK0KAMMSwE2uBNAAAB#NOT_LOGGED_IN] started.
+[04:23:16]:: Connected to firestore
+[04:23:10]:: SESSION[GJdeq3e9RqKubPQHAAAB#NOT_LOGGED_IN] started.
+[04:23:10]:: Connected to firestore
+[04:22:59]:: SESSION[2gocsW8bvj2pNRSOAAAB#NOT_LOGGED_IN] started.
+[04:22:59]:: Connected to firestore
+[04:22:57]:: SESSION[U7iHnXsp0eNvzHVtAAAB#NOT_LOGGED_IN] started.
+[04:22:57]:: Connected to firestore
+[04:22:26]:: SESSION[s1XemYod4wXti9grAAAB#NOT_LOGGED_IN] started.
+[04:22:26]:: Connected to firestore
+[04:22:25]:: SESSION[B76dfua54CVQCLpVAAAB#NOT_LOGGED_IN] started.
+[04:22:25]:: Connected to firestore
+[04:22:19]:: SESSION[sFLu4vn05ZUdDIPwAAAB#NOT_LOGGED_IN] started.
+[04:22:19]:: ^^^^^^ NEW SESSION [04:22:19] ^^^^^^
+
+[04:21:20]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:21:19]:: SESSION[mDGiTxjFtIFmbkttAAAC#NOT_LOGGED_IN] started.
+[04:21:15]:: Connected to firestore
+[04:20:46]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:20:44]:: SESSION[RefQn0_QkLCQER33AAAB#NOT_LOGGED_IN] started.
+[04:20:43]:: server running at http://localhost:3000
+[04:20:38]:: SESSION[YCkpZS7ONxTvFEZIAAAB#NOT_LOGGED_IN] started.
+[04:20:38]:: server running at http://localhost:3000
+[04:20:17]:: SESSION[B242vDn1ef6ABkx7AAAB#NOT_LOGGED_IN] started.
+[04:20:17]:: server running at http://localhost:3000
+[04:19:00]:: SESSION[8WbRSAR7OwyOrsZ4AAAB#NOT_LOGGED_IN] started.
+[04:18:59]:: Connected to firestore
+[04:17:10]:: SESSION[ltBSrG4aZunLwvcNAAAB#NOT_LOGGED_IN] started.
+[04:17:09]:: Connected to firestore
+[04:16:32]:: login error: TypeError: Cannot read properties of undefined (reading 'SID')
+[04:16:31]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:16:31]:: SESSION[uakIbtLiMvxQuxP0AAAB#NOT_LOGGED_IN] started.
+[04:16:31]:: Connected to firestore
+[04:15:07]:: Login failed: invalid credentials.
+[04:15:06]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:15:05]:: SESSION[zRPbZrSVH7ZRLd4FAAAC#NOT_LOGGED_IN] started.
+[04:14:54]:: Connected to firestore
+[04:14:47]:: Connected to firestore
+[04:13:12]:: New connection attempt with identifier(khaled.dridi@medtech.tn) and password(khaled.dridi)
+[04:13:11]:: SESSION[RYHpQuA89AAVXEzLAAAJ#NOT_LOGGED_IN] started.
+[04:10:42]:: SESSION[xbejnvO0kRLStYeoAAAG#NOT_LOGGED_IN] terminated.
+[04:10:33]:: SESSION[xbejnvO0kRLStYeoAAAG#NOT_LOGGED_IN] started.
+[04:08:42]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[6FOj-IFdc-A5zRPJAAAC#NOT_LOGGED_IN].
+[04:08:42]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[6FOj-IFdc-A5zRPJAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:08:40]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:08:38]:: SESSION[GMe22R07faEBKowJAAAD#NOT_LOGGED_IN] terminated.
+[04:08:30]:: SESSION[GMe22R07faEBKowJAAAD#NOT_LOGGED_IN] started.
+[04:08:30]:: SESSION[6FOj-IFdc-A5zRPJAAAC#NOT_LOGGED_IN] started.
+[04:08:30]:: Connected to firestore
+[04:08:25]:: SESSION[HwZG4LLiYKh_LWXOAAAD#NOT_LOGGED_IN] started.
+[04:08:25]:: SESSION[SYhBLI2LtyaF75EPAAAC#NOT_LOGGED_IN] started.
+[04:08:24]:: server running at http://localhost:3000
+[04:08:18]:: SESSION[iSzrrtjtxGzv49zyAAAD#NOT_LOGGED_IN] started.
+[04:08:18]:: SESSION[hKB2FPhJO6h18fUJAAAC#NOT_LOGGED_IN] started.
+[04:08:18]:: Connected to firestore
+[04:07:56]:: SESSION[eIC34zEuQieu7lgmAAAD#NOT_LOGGED_IN] started.
+[04:07:56]:: SESSION[yo6jClLlnfyZxoAMAAAC#NOT_LOGGED_IN] started.
+[04:07:56]:: Connected to firestore
+[04:07:42]:: SESSION[BOzlwoZyayYMeB87AAAC#NOT_LOGGED_IN] started.
+[04:07:42]:: server running at http://localhost:3000
+[04:06:16]:: login error: Error: Value for argument "value" is not a valid query constraint. Cannot use "undefined" as a Firestore value. If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[04:06:16]:: SESSION[pIUhlOxSC9QDepGHAAAF#NOT_LOGGED_IN] started.
+[04:06:04]:: SESSION[ybu2e3za_5Oek4dnAAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Zeineb's Room#ybu2e3za_5Oek4dnAAAC<(0)players>]
+[04:06:01]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[ybu2e3za_5Oek4dnAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:05:53]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:05:52]:: SESSION[ybu2e3za_5Oek4dnAAAC#NOT_LOGGED_IN] started.
+[03:59:35]:: Connected to firestore
 [18:34:20]:: Connected to firestore
 [18:33:24]:: SESSION[_NpRdG4WD7rfP5ZNAAAB#NOT_LOGGED_IN] terminated.
 [18:33:17]:: SESSION[_NpRdG4WD7rfP5ZNAAAB#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
@@ -48,6 +883,7 @@
 [18:23:11]:: SESSION[hinG0_eBbIBU2iRsAAAB#NOT_LOGGED_IN] started.
 [18:23:11]:: server running at http://localhost:3000
 [18:21:14]:: SESSION[90pJ5zf0EPCsj4LNAAAB#NOT_LOGGED_IN] started.
+[_IN] started.
 [18:21:14]:: ^^^^^^ NEW SESSION [18:21:14] ^^^^^^
 
 [18:21:08]:: login error: TypeError: Cannot read properties of null (reading 'collection')
@@ -193,7 +1029,7 @@
 [05:28:00]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Zeineb's Room]
 [05:27:53]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[NbVlO_RsCixvkqaoAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
 [05:27:51]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
-[05:27:39]:: SESSION[NbVlO_RsCixvkqaoAAAC#NOT_LOGGED_IN] started.
+[05:27:39]:: SESSION[NbVlO_RsCixvkqaoAAAC#NOT_ted.
 ^^^^^^ NEW SESSION [05:27:39] ^^^^^^
 
 ^^^^^^ NEW SESSION [05:16:26] ^^^^^^
@@ -319,7 +1155,7 @@
 [04:36:10]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
 [04:36:09]:: SESSION[EWCTODzUTjhpo03_AAAC#NOT_LOGGED_IN] started.
 [04:36:00]:: server running at http://localhost:3000
-[04:35:36]:: TypeError: Cannot read properties of undefined (reading 'player')
+[04:35:36]:: TypeError: Cannot eError: Cannot read properties of undefined (reading 'player')
 [04:35:34]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
 [04:35:30]:: SESSION[KnWhknDJVa0NDnxOAAAB#NOT_LOGGED_IN] started.
 [04:35:30]:: server running at http://localhost:3000
@@ -371,7 +1207,7 @@
 [18:15:13]:: server running at http://localhost:3000
 [18:14:22]:: $email finding attempt: [object Object]
 [18:14:21]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
-[18:14:19]:: SESSION[mFfCnNYJmKfEL16nAAAB#NOT_LOGGED_IN] started.
+[18:14:19]:: SESSION[mFfCnNYJmKfEL16nAAAB#YJmKfEL16nAAAB#NOT_LOGGED_IN] started.
 ^^^^^^ NEW SESSION [18:14:18] ^^^^^^
 
 [18:13:59]:: TypeError: firebaseAdmin.auth(...).signInWithEmailAndPassword is not a function
@@ -769,7 +1605,7 @@
 [22:16:02]:: server running at http://localhost:3000
 ^^^^^^ NEW SESSION [22:16:01] ^^^^^^
 
-[22:15:31]:: server running at http://localhost:3000
+[22:15:31]:: server r//localhost:3000
 [22:15:11]:: server running at http://localhost:3000
 [22:15:10]:: server running at http://localhost:3000
 [22:14:41]:: server running at http://localhost:3000
@@ -1976,6 +2812,810 @@ in.
 
 in.
 .
+
+
+
+
+
+in.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+n.
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
