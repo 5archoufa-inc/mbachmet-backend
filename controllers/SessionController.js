@@ -2,7 +2,8 @@ const { log } = require("../utillities/logger.js");
 const { Player } = require(`../Player.js`);
 const {
     loginPlayerToSession,
-    removeSession
+    removeSession,
+    getSessionBySID
 } = require('../Session.js');
 const { getDb } = require(`../database/Database.js`);
 
@@ -15,14 +16,6 @@ async function login(req, res) {
         });
         return;
     }
-    
-    //functions
-    const onInvalidCredentials = ()=>{
-        res.status(500).json({
-            error: "Invalid Credentials."
-        });
-        log(`Login failed: invalid credentials.`);
-    };
 
     //The identifier can be a phone number or an email 
     log(`New connection attempt with identifier(${identifier}) and password(${password})`);
@@ -37,35 +30,23 @@ async function login(req, res) {
             queryByPhoneNumber.get()
         ]);
 
+        //Check identifier
         const accountDoc = accountByEmail.empty ? accountByPhoneNumber.docs[0] : accountByEmail.docs[0];
-        if (accountDoc) {
-            const accountData = accountDoc.data();
-            if (accountData.password === password) {
-                const player = new Player(accountDoc.id, accountData.username, accountData.email, accountData.phone_number);
-                if (!loginPlayerToSession(sessionInfo.SID, player)) {
-                    res.status(500).json({
-                        error: "Could not login from 2 different accounts on the same session."
-                    });
-                    log(`Login failed: login from 2 different accounts on the same session.`);
-                    return;
-                }
-                res.status(200).json({
-                    PID: player.PID,
-                    username: player.username
-                });
-                return;
-            } else {
-                onInvalidCredentials();
-                return;
-            }
-        }else{
-            onInvalidCredentials();
-            return;
-        }
+        if (!accountDoc)
+            throw new Error('Invalid Credentials');
+
+        //Check password
+        const accountData = accountDoc.data();
+        if (accountData.password !== password)
+            throw new Error('Invalid Credentials');
+
+        const player = loginPlayerToSession(sessionInfo.SID, accountDoc.id, accountData.username, accountData.email, accountData.phone_number);
+        res.status(200).json({ networkPlayer: player.getNetworkPlayerInfo() });
     } catch (error) {
         res.status(500).json({
-            error: "Internal server error."
+            error
         });
+
         log(`login error: ${error}`);
     };
 };

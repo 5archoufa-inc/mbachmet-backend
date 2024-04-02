@@ -33,23 +33,33 @@ async function create(req, res) {
 
 function join(req, res) {
     const { playerInfo, roomId } = req.body;
+    log(`${playerInfo.PID} is trying to join`);
     const player = getPlayerByPID(playerInfo.PID);
-    if(player == null){
-        res.status(500).json({error: `No records of a player with PID(${playerInfo.PID})`});
+    if (player == null) {
+        res.status(500).json({ error: `No records of a player with PID(${playerInfo.PID})` });
         return;
     }
     const room = getRoomOfId(roomId);
-    if(room == null){
-        res.status(500).json({error: `No records of a room with ID(${roomId})`});
+    if (room == null) {
+        res.status(500).json({ error: `No records of a room with ID(${roomId})` });
         return;
     }
     log(`${player} is trying to join ${room}`)
 
-    try{
+    try {
         joinRoom(room, player);
-        res.status(200).json({ title: room.title });
-    }catch(error){
-        res.status(500).json({error});
+        let networkPlayers = []
+        room.players.forEach(roomPlayer=>{
+            if(roomPlayer.PID == player.PID)
+                return;
+            networkPlayers.push(roomPlayer.getNetworkPlayerInfo());
+        })
+        res.status(200).json({
+            title: room.title,
+            players: networkPlayers
+        });
+    } catch (error) {
+        res.status(500).json({ error });
         log(`${player} failed to join ${room}: ${error}`);
     }
 }

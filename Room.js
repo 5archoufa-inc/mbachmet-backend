@@ -19,24 +19,47 @@ class Room {
      * Performs the necessary checks to ensure that the player can be properly added.
      */
     addPlayer(player) {
-        if(player.room?.id === this.id) //Player already a member
+        if (player.room?.id === this.id) //Player already a member
             return;
-        else if(player.room != null)
+        else if (player.room != null)
             throw new Error(`Unable to add player to room: ${player} is already a member of another room`);
 
+        //Inform room players
+        this.players.forEach(roomPlayer => {
+            roomPlayer.session.socket.emit("RoomPlayerStateUpdate", player.getNetworkPlayerInfo(), true);
+        });
+
         //Add player
-        this.players.push(player);
         player.room = this;
-        log(`${player} joined ${this.toString()}`);
-        return;
+        this.players.push(player);
+
+        log(`${this} added ${player}`);
     }
 
-    removePlayer(player) {
+    removePlayer(player, informOtherPlayers = true) {
         const index = this.players.findIndex(p => p.PID === player.PID);
         if (index === -1)
             return;
 
-        this.players.splice(index);
+        //Inform room players
+        if (informOtherPlayers) {
+            this.players.forEach(roomPlayer => {
+                roomPlayer.session.socket.emit("RoomPlayerStateUpdate", {
+                    player: player.getNetworkPlayerInfo(), 
+                    isInRoom: false
+                });
+            });
+        } else {
+            player.session.socket.emit("RoomPlayerStateUpdate",{
+                player: player.getNetworkPlayerInfo(), 
+                isInRoom: false
+            });
+        }
+
+        //Remove player
+        this.players.splice(index, 1);
+        player.room = null;
+
         log(`${this} removed ${player}`);
     }
 
@@ -54,7 +77,7 @@ class Room {
      */
     destroy() {
         this.players.forEach(player => {
-            this.removePlayer(player.PID);
+            this.removePlayer(player, false);
         })
         this.id = null;
         this.hostSession = null;
@@ -113,10 +136,12 @@ function destroyRoom(roomId) {
         if (rooms[i].id === roomId) {
             log(`Destroyed ${rooms[i]}.`);
             rooms[i].destroy();
-            rooms.splice(i);
-            break;
+            rooms.splice(i, 1);
+            return;
         }
     }
+
+    log(`Could not destroy unexisting room of ID(${roomId})`);
 }
 
 function getRoomOfId(id) {

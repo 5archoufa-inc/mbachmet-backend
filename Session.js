@@ -1,5 +1,6 @@
 const { log } = require('./utillities/logger');
 const EventEmitter = require('events');
+const { Player } = require('./Player');
 
 class Session {
     constructor(socket) {
@@ -22,6 +23,14 @@ class Session {
 
 ///SESSIONS
 let sessions = []
+/*async function infinito() {
+    while (true) {
+        log(`active sessions(${sessions.length}):`);
+        sessions.forEach(session => log(`${session}`));
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 1 second
+    }
+}
+infinito();*/
 
 ///EVENTS
 const sessionsEvent = new EventEmitter();
@@ -57,24 +66,23 @@ function addSession(socket) {
  * Looks throughout the existing sessions and 
  * sets the player information accordingly.
  */
-function loginPlayerToSession(SID, player) {
+function loginPlayerToSession(SID, PID, username, email, phone_number) {
     const session = getSessionBySID(SID);
     //check if the session exists
-    if (!session) {
+    if (!session)
         throw new Error(`Could not login player to unexisting session of SID:${SID}`);
-    }
+
     //check if the player is already logged in
-    const existingPlayer = getPlayerByPID(player.PID);
-    if(existingPlayer != null){
-        log(`${player} failed to login from 2 different devices at the same time`);
-        return false;
-    }
+    const existingPlayer = getPlayerByPID(PID);
+    if (existingPlayer)
+        throw new Error(`${username}#${PID} failed to login from 2 different devices at the same time`);
 
     //Login
+    const player = new Player(session, PID, username, email, phone_number);
     session.setPlayer(player);
     log(`${player} logged in to ${session}`);
     sessionsEvent.emit("login", session, player);
-    return true;
+    return player;
 }
 
 function logoutPlayerFromSession(SID, triggerEvent = true) {
@@ -102,13 +110,11 @@ function removeSession(SID) {
         log(`Could not remove unexisting session of socket id: ${SID}`);
         return false;
     }
-
     const session = sessions[sessionIndex];
     if (session.player) {
         logoutPlayerFromSession(SID);
     }
-    sessions.splice(sessionIndex);
-    log(`${session} terminated.`);
+    sessions.splice(sessionIndex, 1);
     sessionsEvent.emit("terminate", session);
     return true;
 }
