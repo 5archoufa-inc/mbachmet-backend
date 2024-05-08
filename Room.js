@@ -23,6 +23,8 @@ class Room {
             return;
         else if (player.room != null)
             throw new Error(`Unable to add player to room: ${player} is already a member of another room`);
+        //Inform host
+        this.hostSession.socket.emit("RoomPlayerStateUpdate", player.getNetworkPlayerInfo(), true);
 
         //Inform room players
         this.players.forEach(roomPlayer => {
@@ -41,17 +43,20 @@ class Room {
         if (index === -1)
             return;
 
+        //Inform host
+        hostSession.socket.emit("RoomPlayerStateUpdate", player.getNetworkPlayerInfo(), false);
+
         //Inform room players
         if (informOtherPlayers) {
             this.players.forEach(roomPlayer => {
                 roomPlayer.session.socket.emit("RoomPlayerStateUpdate", {
-                    player: player.getNetworkPlayerInfo(), 
+                    player: player.getNetworkPlayerInfo(),
                     isInRoom: false
                 });
             });
         } else {
-            player.session.socket.emit("RoomPlayerStateUpdate",{
-                player: player.getNetworkPlayerInfo(), 
+            player.session.socket.emit("RoomPlayerStateUpdate", {
+                player: player.getNetworkPlayerInfo(),
                 isInRoom: false
             });
         }
@@ -116,7 +121,6 @@ function createRoom(title, hostSession) {
             throw new Error(`${hostSession} is already hosting ${room}.`);
         }
     }
-
     const room = new Room(title, hostSession);
     rooms.push(room);
     return room;
@@ -127,7 +131,6 @@ function joinRoom(room, player) {
     if (room == null) {
         throw new Error(`No room of id(${hostSession}).`);
     }*/
-
     room.addPlayer(player);
 }
 
