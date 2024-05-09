@@ -1,3 +1,786 @@
+[05:50:59]:: Destroyed ROOM(Playing)[Koujinet khaled#735693<(0)players>].
+[05:50:49]:: ROOM(Playing)[Koujinet khaled#735693<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:49:56]:: Host is ready!
+[05:49:54]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:49:54]:: Will launch a game at:
+[05:49:53]:: ROOM(In Lobby)[Koujinet khaled#735693<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:49:47]:: SESSION[4QmjEQ59SldOYLaNAAA1#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:49:45]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[4QmjEQ59SldOYLaNAAA1#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:49:45]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:49:44]:: SESSION[4QmjEQ59SldOYLaNAAA1#NOT_LOGGED_IN] started.
+[05:49:41]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[PmTxXnle2H6I6i54AAAy#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:49:40]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:49:39]:: SESSION[PmTxXnle2H6I6i54AAAy#NOT_LOGGED_IN] started.
+[05:49:38]:: Destroyed ROOM(In Lobby)[Koujinet khaled#390119<(0)players>].
+[05:49:36]:: ROOM(In Lobby)[Koujinet khaled#390119<(0)players>] FAILED to launch game
+[05:49:31]:: SESSION[xNk3Sdncc6lx8vzOAAAv#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#390119<(0)players>]
+[05:49:30]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[xNk3Sdncc6lx8vzOAAAv#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:49:29]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:49:28]:: SESSION[xNk3Sdncc6lx8vzOAAAv#NOT_LOGGED_IN] started.
+[05:49:23]:: Destroyed ROOM(Playing)[Koujinet khaled#246179<(0)players>].
+[05:49:16]:: ROOM(Playing)[Koujinet khaled#246179<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:48:22]:: Host is ready!
+[05:48:22]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:48:21]:: Will launch a game at:
+[05:48:20]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#246179<(0)players>]
+[05:48:14]:: SESSION[0SISwSRCyxerrbVxAAAs#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#246179<(0)players>]
+[05:48:13]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[0SISwSRCyxerrbVxAAAs#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:48:12]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:48:11]:: SESSION[0SISwSRCyxerrbVxAAAs#NOT_LOGGED_IN] started.
+[05:48:06]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[zBcDA6rtF_6y6Q7BAAAj#NOT_LOGGED_IN].
+[05:48:03]:: ROOM(In Lobby)[Koujinet khaled#802094<(0)players>] FAILED to launch game
+[05:47:56]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[3PUGC6nmzcGRRFspAAAp#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:47:55]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:47:54]:: SESSION[3PUGC6nmzcGRRFspAAAp#NOT_LOGGED_IN] started.
+[05:47:25]:: login error: Error: Could not login player to unexisting session of SID:ilvfXjqvvkL_mv9rAAAm
+[05:47:25]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:47:24]:: SESSION[ilvfXjqvvkL_mv9rAAAm#NOT_LOGGED_IN] started.
+[05:47:15]:: SESSION[zBcDA6rtF_6y6Q7BAAAj#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#802094<(0)players>]
+[05:47:13]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[zBcDA6rtF_6y6Q7BAAAj#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:47:13]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:47:12]:: SESSION[zBcDA6rtF_6y6Q7BAAAj#NOT_LOGGED_IN] started.
+[05:46:57]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[YDa_7jTvgBereVEfAAAd#NOT_LOGGED_IN].
+[05:45:11]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[-_APkNQIrwrcmpJZAAAg#NOT_LOGGED_IN].
+[05:44:52]:: Host is ready!
+[05:44:51]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:44:51]:: Will launch a game at:
+[05:44:50]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:44:46]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[-_APkNQIrwrcmpJZAAAg#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:44:45]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:44:44]:: SESSION[-_APkNQIrwrcmpJZAAAg#NOT_LOGGED_IN] started.
+[05:44:42]:: SESSION[YDa_7jTvgBereVEfAAAd#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#445002<(0)players>]
+[05:44:38]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[YDa_7jTvgBereVEfAAAd#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:44:37]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:44:36]:: SESSION[YDa_7jTvgBereVEfAAAd#NOT_LOGGED_IN] started.
+[05:43:27]:: Destroyed ROOM(Playing)[Koujinet khaled#842530<(0)players>].
+[05:43:15]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[9jip9qV_rzIxfGYzAAAa#NOT_LOGGED_IN].
+[05:42:31]:: Host is ready!
+[05:42:30]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:42:30]:: Will launch a game at:
+[05:42:28]:: ROOM(In Lobby)[Koujinet khaled#842530<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:42:23]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[9jip9qV_rzIxfGYzAAAa#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:42:23]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:42:22]:: SESSION[9jip9qV_rzIxfGYzAAAa#NOT_LOGGED_IN] started.
+[05:42:14]:: SESSION[b0wOBu1TBoGvNGGHAAAX#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#842530<(0)players>]
+[05:42:12]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[b0wOBu1TBoGvNGGHAAAX#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:42:12]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:42:11]:: SESSION[b0wOBu1TBoGvNGGHAAAX#NOT_LOGGED_IN] started.
+[05:40:30]:: Destroyed ROOM(Playing)[Koujinet khaled#663094<(0)players>].
+[05:40:26]:: ROOM(Playing)[Koujinet khaled#663094<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:39:42]:: Host is ready!
+[05:39:41]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:39:41]:: Will launch a game at:
+[05:39:40]:: ROOM(In Lobby)[Koujinet khaled#663094<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:39:34]:: SESSION[cSq8Dua36MfN2f9tAAAU#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:39:34]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[cSq8Dua36MfN2f9tAAAU#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:39:33]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:39:32]:: SESSION[cSq8Dua36MfN2f9tAAAU#NOT_LOGGED_IN] started.
+[05:39:30]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[0TmyQj7dPzxM5JBDAAAR#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:39:30]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:39:29]:: SESSION[0TmyQj7dPzxM5JBDAAAR#NOT_LOGGED_IN] started.
+[05:39:24]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[gyIW3BZ8985SdtOMAAAL#NOT_LOGGED_IN].
+[05:38:38]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[XJCuXyZar3quUuEMAAAO#NOT_LOGGED_IN].
+[05:37:58]:: Host is ready!
+[05:37:58]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:37:57]:: Will launch a game at:
+[05:37:56]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#779589<(0)players>]
+[05:37:51]:: SESSION[XJCuXyZar3quUuEMAAAO#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#779589<(0)players>]
+[05:37:50]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[XJCuXyZar3quUuEMAAAO#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:37:49]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:37:48]:: SESSION[XJCuXyZar3quUuEMAAAO#NOT_LOGGED_IN] started.
+[05:37:46]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[gyIW3BZ8985SdtOMAAAL#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:37:45]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:37:44]:: SESSION[gyIW3BZ8985SdtOMAAAL#NOT_LOGGED_IN] started.
+[05:33:49]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[3awanJnMLlNVVO7-AAAI#NOT_LOGGED_IN].
+[05:33:47]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[3awanJnMLlNVVO7-AAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:33:46]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:33:45]:: SESSION[3awanJnMLlNVVO7-AAAI#NOT_LOGGED_IN] started.
+[05:32:53]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[dgbETiduvH464Gc7AAAC#NOT_LOGGED_IN].
+[05:32:51]:: Destroyed ROOM(Playing)[Koujinet khaled#382165<(1)players>].
+[05:31:53]:: Host is ready!
+[05:31:53]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:31:52]:: Will launch a game at:
+[05:31:51]:: ROOM(In Lobby)[Koujinet khaled#382165<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:31:45]:: SESSION[itguhEwiBtC0502DAAAF#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#382165<(0)players>]
+[05:31:44]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[itguhEwiBtC0502DAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:31:44]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:31:42]:: SESSION[itguhEwiBtC0502DAAAF#NOT_LOGGED_IN] started.
+[05:31:41]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[dgbETiduvH464Gc7AAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:31:40]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:31:39]:: SESSION[dgbETiduvH464Gc7AAAC#NOT_LOGGED_IN] started.
+[05:31:16]:: server running at http://localhost:3000
+[05:30:52]:: Connected to firestore
+[05:30:48]:: server running at http://localhost:3000
+[05:29:39]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[j_kWtWWKyH06R6TUAAAB#NOT_LOGGED_IN].
+[05:29:30]:: ROOM(Playing)[Koujinet khaled#633232<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:29:24]:: Host is ready!
+[05:29:24]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:29:23]:: Will launch a game at:
+[05:29:22]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:29:16]:: SESSION[tGLgyjir6TrFBItfAAAE#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:29:15]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[tGLgyjir6TrFBItfAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:29:14]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:29:14]:: SESSION[tGLgyjir6TrFBItfAAAE#NOT_LOGGED_IN] started.
+[05:29:06]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[j_kWtWWKyH06R6TUAAAB#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:29:05]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:29:05]:: SESSION[j_kWtWWKyH06R6TUAAAB#NOT_LOGGED_IN] started.
+[05:29:05]:: Connected to firestore
+[05:28:59]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[SEjr1FtC0llzmXkWAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:28:58]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:28:57]:: SESSION[SEjr1FtC0llzmXkWAAAC#NOT_LOGGED_IN] started.
+[05:27:39]:: Connected to firestore
+[05:27:18]:: Destroyed ROOM(Playing)[Koujinet khaled#976451<(0)players>].
+[05:27:10]:: ROOM(Playing)[Koujinet khaled#976451<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:26:47]:: Host is ready!
+[05:26:46]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:26:46]:: Will launch a game at:
+[05:26:45]:: ROOM(In Lobby)[Koujinet khaled#976451<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:26:35]:: SESSION[BNY5PvaGlwH4ZNRsAAAI#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:26:34]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[BNY5PvaGlwH4ZNRsAAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:26:33]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:26:32]:: SESSION[BNY5PvaGlwH4ZNRsAAAI#NOT_LOGGED_IN] started.
+[05:26:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[4ESDqC3zqRggbwDmAAAF#NOT_LOGGED_IN].
+[05:26:24]:: ROOM(In Lobby)[Koujinet khaled#759259<(0)players>] FAILED to launch game
+[05:26:24]:: SESSION[4ESDqC3zqRggbwDmAAAF#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#759259<(0)players>]
+[05:26:21]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[4ESDqC3zqRggbwDmAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:26:21]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[YYj0niFNkpqFq160AAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:26:20]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:26:20]:: SESSION[4ESDqC3zqRggbwDmAAAF#NOT_LOGGED_IN] started.
+[05:26:16]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:26:15]:: SESSION[YYj0niFNkpqFq160AAAC#NOT_LOGGED_IN] started.
+[05:25:43]:: Connected to firestore
+[05:25:32]:: Connected to firestore
+[05:24:53]:: SESSION[3mTkAQEzKysFD9WrAAAB#NOT_LOGGED_IN] started.
+[05:24:53]:: server running at http://localhost:3000
+[05:24:41]:: SESSION[QmZ_Ur6Y7sam34TGAAAB#NOT_LOGGED_IN] started.
+[05:24:40]:: server running at http://localhost:3000
+[05:24:21]:: Destroyed ROOM(Playing)[Koujinet khaled#504919<(1)players>].
+[05:24:13]:: Host is ready!
+[05:24:13]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:24:12]:: Will launch a game at:
+[05:24:11]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:24:05]:: SESSION[zZIix3di_WmUIZpTAAAJ#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:24:04]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[zZIix3di_WmUIZpTAAAJ#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:24:03]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:24:02]:: SESSION[zZIix3di_WmUIZpTAAAJ#NOT_LOGGED_IN] started.
+[05:24:00]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[NTQKKBYVKkg1TSsbAAAG#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:23:59]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:23:58]:: SESSION[NTQKKBYVKkg1TSsbAAAG#NOT_LOGGED_IN] started.
+[05:23:57]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[-qns48dxL_w5wub8AAAB#NOT_LOGGED_IN].
+[05:23:46]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[-qns48dxL_w5wub8AAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:23:45]:: SESSION[AEG1duXjeuW6PZAOAAAD#NOT_LOGGED_IN] started.
+[05:23:44]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:23:44]:: SESSION[-qns48dxL_w5wub8AAAB#NOT_LOGGED_IN] started.
+[05:23:44]:: Connected to firestore
+[05:23:32]:: Host is ready!
+[05:23:32]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:23:31]:: Will launch a game at:
+[05:23:30]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:23:24]:: SESSION[wLfBZnKAK24ZQQZjAAAF#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#415674<(0)players>]
+[05:23:24]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[wLfBZnKAK24ZQQZjAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:23:24]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ouSvZRUUhhQ3DF15AAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:23:23]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:23:23]:: SESSION[wLfBZnKAK24ZQQZjAAAF#NOT_LOGGED_IN] started.
+[05:23:20]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:23:19]:: SESSION[ouSvZRUUhhQ3DF15AAAC#NOT_LOGGED_IN] started.
+[05:22:08]:: server running at http://localhost:3000
+[05:20:28]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[xzrXl6oChCD-6pDnAAAF#NOT_LOGGED_IN].
+[05:20:27]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[DaZfQ0J9TYMIDqtoAAAI#NOT_LOGGED_IN].
+[05:19:56]:: Host is ready!
+[05:19:56]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:19:55]:: Will launch a game at:
+[05:19:53]:: ROOM(In Lobby)[Koujinet khaled#064641<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:19:47]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[DaZfQ0J9TYMIDqtoAAAI#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:19:46]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:19:45]:: SESSION[xzrXl6oChCD-6pDnAAAF#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#064641<(0)players>]
+[05:19:45]:: SESSION[DaZfQ0J9TYMIDqtoAAAI#NOT_LOGGED_IN] started.
+[05:19:42]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[xzrXl6oChCD-6pDnAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:19:41]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:19:40]:: SESSION[xzrXl6oChCD-6pDnAAAF#NOT_LOGGED_IN] started.
+[05:18:46]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[fDVn5RdkgdK7Gw0rAAAC#NOT_LOGGED_IN].
+[05:18:41]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[fDVn5RdkgdK7Gw0rAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:18:40]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:18:39]:: SESSION[fDVn5RdkgdK7Gw0rAAAC#NOT_LOGGED_IN] started.
+[05:18:32]:: Connected to firestore
+[05:18:27]:: Connected to firestore
+[05:18:24]:: Connected to firestore
+[05:18:21]:: Connected to firestore
+[05:18:00]:: Destroyed ROOM(Playing)[Koujinet khaled#890261<(1)players>].
+[05:17:49]:: Host is ready!
+[05:17:49]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:17:48]:: Will launch a game at:
+[05:17:46]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#890261<(0)players>]
+[05:17:38]:: SESSION[rhcRmXTOsa5y5OwZAAAE#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:17:35]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[rhcRmXTOsa5y5OwZAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:17:34]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:17:33]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[JILpdMvsQtM6uy1zAAAB#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:17:33]:: SESSION[rhcRmXTOsa5y5OwZAAAE#NOT_LOGGED_IN] started.
+[05:17:31]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:17:31]:: SESSION[JILpdMvsQtM6uy1zAAAB#NOT_LOGGED_IN] started.
+[05:17:31]:: Connected to firestore
+[05:16:34]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[NQzLHtNgXIXC83PMAAAE#NOT_LOGGED_IN].
+[05:16:12]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:16:11]:: Host is ready!
+[05:16:10]:: Will launch a game at:
+[05:16:06]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:15:57]:: SESSION[NQzLHtNgXIXC83PMAAAE#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[05:15:52]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[T0ReIH9BcJOf9iwAAAAH#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:15:52]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:15:51]:: SESSION[T0ReIH9BcJOf9iwAAAAH#NOT_LOGGED_IN] started.
+[05:15:50]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[NQzLHtNgXIXC83PMAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:15:49]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:15:48]:: SESSION[NQzLHtNgXIXC83PMAAAE#NOT_LOGGED_IN] started.
+[05:15:42]:: SESSION[Fey7nrZlnD3A4aNNAAAB#NOT_LOGGED_IN] started.
+[05:15:42]:: server running at http://localhost:3000
+[05:15:06]:: ROOM(Playing)[Koujinet khaled#380817<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:14:38]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:14:38]:: Host is ready!
+[05:14:37]:: Will launch a game at:
+[05:14:32]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[05:14:27]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[M_6LYE8kky2KaRjXAAAL#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:14:26]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:14:26]:: SESSION[M_6LYE8kky2KaRjXAAAL#NOT_LOGGED_IN] started.
+[05:14:25]:: SESSION[Mv9Bh_nmGs99LJsVAAAI#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#380817<(0)players>]
+[05:14:23]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[Mv9Bh_nmGs99LJsVAAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:14:22]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:14:21]:: SESSION[Mv9Bh_nmGs99LJsVAAAI#NOT_LOGGED_IN] started.
+[05:14:21]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[t5NMVQDOFvQUJ34lAAAF#NOT_LOGGED_IN].
+[05:14:16]:: Destroyed ROOM(In Lobby)[Koujinet khaled#400789<(1)players>].
+[05:14:09]:: ROOM(In Lobby)[Koujinet khaled#400789<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:13:58]:: ROOM(In Lobby)[Koujinet khaled#400789<(0)players>] FAILED to launch game
+[05:13:48]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[t5NMVQDOFvQUJ34lAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:13:47]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:13:46]:: SESSION[t5NMVQDOFvQUJ34lAAAF#NOT_LOGGED_IN] started.
+[05:13:39]:: SESSION[KlXvJ0u7Ckeu7R_0AAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#400789<(0)players>]
+[05:13:38]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[KlXvJ0u7Ckeu7R_0AAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:13:37]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:13:36]:: SESSION[KlXvJ0u7Ckeu7R_0AAAC#NOT_LOGGED_IN] started.
+[05:13:25]:: Connected to firestore
+[05:13:10]:: Connected to firestore
+[05:11:45]:: Destroyed ROOM(Playing)[Koujinet khaled#633789<(1)players>].
+[05:11:14]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[05:11:11]:: Host is ready!
+[05:11:10]:: Will launch a game at:
+[05:11:08]:: ROOM(In Lobby)[Koujinet khaled#633789<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:11:02]:: SESSION[MNb1JjlAllSbE5c4AAAI#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#633789<(0)players>]
+[05:11:01]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[MNb1JjlAllSbE5c4AAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:11:00]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:10:59]:: SESSION[MNb1JjlAllSbE5c4AAAI#NOT_LOGGED_IN] started.
+[05:10:58]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[A36T1CVNzZ1wzkaWAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[05:10:57]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[05:10:56]:: SESSION[A36T1CVNzZ1wzkaWAAAF#NOT_LOGGED_IN] started.
+[05:08:34]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[d0C4rtXxGBT_XN0dAAAC#NOT_LOGGED_IN].
+[05:08:04]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[d0C4rtXxGBT_XN0dAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[05:08:03]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[05:08:02]:: SESSION[d0C4rtXxGBT_XN0dAAAC#NOT_LOGGED_IN] started.
+[05:07:56]:: Connected to firestore
+[04:55:06]:: ROOM(Playing)[Koujinet khaled#025017<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:54:50]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[04:54:49]:: Host is ready!
+[04:54:48]:: Will launch a game at:
+[04:54:46]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[04:54:41]:: SESSION[_xbECNZMWmVXWpqNAAAF#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[04:54:40]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[_xbECNZMWmVXWpqNAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:54:40]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[nCVG_DcggunwtHslAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:54:39]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:54:39]:: SESSION[_xbECNZMWmVXWpqNAAAF#NOT_LOGGED_IN] started.
+[04:54:38]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:54:37]:: SESSION[nCVG_DcggunwtHslAAAC#NOT_LOGGED_IN] started.
+[04:54:33]:: server running at http://localhost:3000
+[04:54:27]:: login error: Error: Could not login player to unexisting session of SID:Wqw2z8fs7lU8fIVBAAAD
+[04:54:26]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:54:23]:: SESSION[Wqw2z8fs7lU8fIVBAAAD#NOT_LOGGED_IN] started.
+[04:54:23]:: SESSION[W-WLLdyyXT11uT3FAAAC#NOT_LOGGED_IN] started.
+[04:54:23]:: Connected to firestore
+[04:54:06]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is ready!
+[04:54:04]:: Host is ready!
+[04:54:03]:: Will launch a game at:
+[04:53:57]:: ROOM(In Lobby)[Koujinet khaled#027026<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:53:52]:: SESSION[OUYWf6X2E4gS2dDnAAAG#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#027026<(0)players>]
+[04:53:48]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[YJA9d7KCL-A2vNMZAAAJ#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:53:47]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:53:47]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[OUYWf6X2E4gS2dDnAAAG#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:53:46]:: SESSION[YJA9d7KCL-A2vNMZAAAJ#NOT_LOGGED_IN] started.
+[04:53:46]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:53:45]:: SESSION[OUYWf6X2E4gS2dDnAAAG#NOT_LOGGED_IN] started.
+[04:53:40]:: login error: Error: Could not login player to unexisting session of SID:6ZeQJTHEczGZxr2AAAAC
+[04:53:39]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:53:37]:: SESSION[6ZeQJTHEczGZxr2AAAAC#NOT_LOGGED_IN] started.
+[04:53:37]:: server running at http://localhost:3000
+[04:53:19]:: Host is ready!
+[04:53:18]:: Will launch a game at:
+[04:53:14]:: ROOM(In Lobby)[Koujinet khaled#733310<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:53:09]:: SESSION[3uSkUuZld09yAOQQAAAJ#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#733310<(0)players>]
+[04:53:08]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[3uSkUuZld09yAOQQAAAJ#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:53:07]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:53:06]:: SESSION[3uSkUuZld09yAOQQAAAJ#NOT_LOGGED_IN] started.
+[04:53:06]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[CsSeFIHYRM3kkGaRAAAG#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:53:05]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:53:04]:: SESSION[CsSeFIHYRM3kkGaRAAAG#NOT_LOGGED_IN] started.
+[04:52:58]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[t713IvGoxGNSttw_AAAD#NOT_LOGGED_IN].
+[04:52:57]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[t713IvGoxGNSttw_AAAD#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:52:55]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:52:53]:: SESSION[t713IvGoxGNSttw_AAAD#NOT_LOGGED_IN] started.
+[04:52:53]:: SESSION[PRLB2eg84GunuvyxAAAC#NOT_LOGGED_IN] started.
+[04:52:53]:: server running at http://localhost:3000
+[04:52:36]:: Will launch a game at:
+[04:52:33]:: ROOM(In Lobby)[Koujinet khaled#317681<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:52:25]:: SESSION[wI1trleeVb8RuoMWAAAC#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[04:52:25]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[nTGqm7ZLnsPBCajeAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:52:24]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:52:23]:: SESSION[nTGqm7ZLnsPBCajeAAAF#NOT_LOGGED_IN] started.
+[04:50:15]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[wI1trleeVb8RuoMWAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:50:12]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:50:11]:: SESSION[wI1trleeVb8RuoMWAAAC#NOT_LOGGED_IN] started.
+[04:48:00]:: Connected to firestore
+[04:47:45]:: server running at http://localhost:3000
+[04:46:08]:: Connected to firestore
+[04:46:02]:: Connected to firestore
+[04:45:44]:: server running at http://localhost:3000
+[04:45:41]:: Connected to firestore
+[04:45:38]:: Connected to firestore
+[04:45:02]:: server running at http://localhost:3000
+[04:44:55]:: server running at http://localhost:3000
+[04:43:29]:: server running at http://localhost:3000
+[04:43:09]:: server running at http://localhost:3000
+[04:34:51]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[B4OrrRKpjNSTex2yAAAI#NOT_LOGGED_IN].
+[04:33:21]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[0K5T0v9Oiyaqv85eAAAL#NOT_LOGGED_IN].
+[04:32:58]:: Will launch a game at:
+[04:32:55]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[04:32:49]:: SESSION[0K5T0v9Oiyaqv85eAAAL#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#485857<(0)players>]
+[04:32:46]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[0K5T0v9Oiyaqv85eAAAL#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:32:45]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:32:44]:: SESSION[0K5T0v9Oiyaqv85eAAAL#NOT_LOGGED_IN] started.
+[04:32:37]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[B4OrrRKpjNSTex2yAAAI#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:32:36]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:32:35]:: SESSION[B4OrrRKpjNSTex2yAAAI#NOT_LOGGED_IN] started.
+[04:31:02]:: Destroyed ROOM(Waiting for Players to Load)[Koujinet khaled#706350<(0)players>].
+[04:30:23]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[FnC-6Uqm4U0zO3fvAAAF#NOT_LOGGED_IN].
+[04:30:22]:: Will launch a game at:
+[04:30:19]:: ROOM(In Lobby)[Koujinet khaled#706350<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:30:11]:: SESSION[hWCSRX94KkeKwAsuAAAC#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[04:30:09]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[FnC-6Uqm4U0zO3fvAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:30:08]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:30:08]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[hWCSRX94KkeKwAsuAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:30:08]:: SESSION[FnC-6Uqm4U0zO3fvAAAF#NOT_LOGGED_IN] started.
+[04:30:05]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:30:04]:: SESSION[hWCSRX94KkeKwAsuAAAC#NOT_LOGGED_IN] started.
+[04:29:15]:: ^^^^^^ NEW SESSION [04:29:15] ^^^^^^
+
+[04:29:14]:: server running at http://localhost:3000
+[04:29:08]:: server running at http://localhost:3000
+[04:28:51]:: server running at http://localhost:3000
+[04:28:11]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[ZrI369crsSZO1zXTAAAM#NOT_LOGGED_IN].
+[04:27:02]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[70H6f61gqUuffngaAAAP#NOT_LOGGED_IN].
+[04:26:26]:: ROOM(In Lobby)[Koujinet khaled#782171<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:26:12]:: SESSION[70H6f61gqUuffngaAAAP#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[04:26:10]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[70H6f61gqUuffngaAAAP#rukki#LgxFkdL2qcICFnGwdqoi]
+[04:26:08]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[04:26:08]:: SESSION[70H6f61gqUuffngaAAAP#NOT_LOGGED_IN] started.
+[04:26:03]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ZrI369crsSZO1zXTAAAM#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[04:26:02]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[04:26:01]:: SESSION[ZrI369crsSZO1zXTAAAM#NOT_LOGGED_IN] started.
+[03:57:18]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[oTPieJlgYpSVYLPWAAAG#NOT_LOGGED_IN].
+[03:56:47]:: ROOM(Waiting for Players to Load)[Koujinet khaled#604975<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:56:27]:: ROOM(In Lobby)[Koujinet khaled#604975<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:56:15]:: SESSION[oTPieJlgYpSVYLPWAAAG#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#604975<(0)players>]
+[03:56:08]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[K3ksuL3R2pJzOBPuAAAJ#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:56:08]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[oTPieJlgYpSVYLPWAAAG#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:56:07]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:56:07]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:56:07]:: SESSION[K3ksuL3R2pJzOBPuAAAJ#NOT_LOGGED_IN] started.
+[03:56:06]:: SESSION[oTPieJlgYpSVYLPWAAAG#NOT_LOGGED_IN] started.
+[03:56:02]:: Destroyed ROOM(In Lobby)[Koujinet khaled#147462<(0)players>].
+[03:56:01]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[VR9Bsj81KhYz3C_aAAAC#NOT_LOGGED_IN].
+[03:55:53]:: SESSION[9H8wa7PTgYPLDgEuAAAD#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#147462<(0)players>]
+[03:55:52]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[9H8wa7PTgYPLDgEuAAAD#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:55:51]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:55:47]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[VR9Bsj81KhYz3C_aAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:55:45]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:55:45]:: SESSION[9H8wa7PTgYPLDgEuAAAD#NOT_LOGGED_IN] started.
+[03:55:45]:: server running at http://localhost:3000
+[03:55:44]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:55:43]:: SESSION[i1ehXRUjfEpMKlkBAAAH#NOT_LOGGED_IN] started.
+[03:55:42]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[aVGMBzrmLuCuVjicAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:55:40]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:55:39]:: SESSION[aVGMBzrmLuCuVjicAAAE#NOT_LOGGED_IN] started.
+[03:52:11]:: SESSION[SosT-q3JCGOuufldAAAB#NOT_LOGGED_IN] started.
+[03:52:11]:: Connected to firestore
+[03:42:13]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[J9xANeWUFiFrSFSbAAAC#NOT_LOGGED_IN].
+[03:41:40]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#399407<(0)players>]
+[03:41:33]:: SESSION[J9xANeWUFiFrSFSbAAAC#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[03:41:30]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[jr2SbURlGKpZCRrsAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:41:29]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:41:29]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[J9xANeWUFiFrSFSbAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:41:28]:: SESSION[jr2SbURlGKpZCRrsAAAF#NOT_LOGGED_IN] started.
+[03:41:27]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:41:27]:: SESSION[J9xANeWUFiFrSFSbAAAC#NOT_LOGGED_IN] started.
+[03:41:21]:: Connected to firestore
+[03:41:19]:: Destroyed ROOM(In Lobby)[Koujinet khaled#931481<(0)players>].
+[03:41:18]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[doevUt73rjufMh0_AAAB#NOT_LOGGED_IN].
+[03:41:01]:: SESSION[h6WqjWspUGZE7Z--AAAE#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#931481<(0)players>]
+[03:40:59]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[h6WqjWspUGZE7Z--AAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:40:58]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:40:57]:: SESSION[h6WqjWspUGZE7Z--AAAE#NOT_LOGGED_IN] started.
+[03:40:54]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[doevUt73rjufMh0_AAAB#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:40:52]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:40:51]:: SESSION[doevUt73rjufMh0_AAAB#NOT_LOGGED_IN] started.
+[03:40:51]:: Connected to firestore
+[03:40:47]:: SESSION[88seXSAF1KBPk1f7AAAB#NOT_LOGGED_IN] started.
+[03:40:47]:: server running at http://localhost:3000
+[03:40:28]:: SESSION[wHakiX6-yt3jO-86AAAH#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#788695<(0)players>]
+[03:40:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[wHakiX6-yt3jO-86AAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:40:26]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:40:25]:: SESSION[wHakiX6-yt3jO-86AAAH#NOT_LOGGED_IN] started.
+[03:40:21]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[Zo5MO__bTRNfGck5AAAE#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:40:20]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:40:20]:: SESSION[Zo5MO__bTRNfGck5AAAE#NOT_LOGGED_IN] started.
+[03:40:20]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[ZJyyR0cIJPmfnMapAAAB#NOT_LOGGED_IN].
+[03:40:19]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[ZJyyR0cIJPmfnMapAAAB#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:40:17]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:40:01]:: SESSION[ZJyyR0cIJPmfnMapAAAB#NOT_LOGGED_IN] started.
+[03:40:01]:: server running at http://localhost:3000
+[03:40:00]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[dNkr1YNmhA9NDM7qAAAO#NOT_LOGGED_IN].
+[03:39:27]:: SESSION[PrgtOt4o9sxyBv5LAAAU#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[03:39:23]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[PrgtOt4o9sxyBv5LAAAU#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:39:22]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:39:22]:: SESSION[PrgtOt4o9sxyBv5LAAAU#NOT_LOGGED_IN] started.
+[03:37:43]:: ROOM(Waiting for Players to Load)[Koujinet khaled#983421<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:37:30]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[03:37:25]:: SESSION[MVhUbsQzR9xH8vPtAAAR#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[03:37:22]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[MVhUbsQzR9xH8vPtAAAR#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:37:21]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:37:20]:: SESSION[MVhUbsQzR9xH8vPtAAAR#NOT_LOGGED_IN] started.
+[03:37:15]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[dNkr1YNmhA9NDM7qAAAO#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:37:14]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:37:14]:: SESSION[dNkr1YNmhA9NDM7qAAAO#NOT_LOGGED_IN] started.
+[03:37:09]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[ksYuCKtJc6Wr60k0AAAL#NOT_LOGGED_IN].
+[03:35:07]:: ROOM(Waiting for Players to Load)[Koujinet khaled#537601<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:34:26]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[03:34:17]:: SESSION[cQ5O97Oja8VQaskIAAAI#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[03:34:14]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ksYuCKtJc6Wr60k0AAAL#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:34:13]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:34:12]:: SESSION[ksYuCKtJc6Wr60k0AAAL#NOT_LOGGED_IN] started.
+[03:34:10]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[cQ5O97Oja8VQaskIAAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:34:10]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:34:09]:: SESSION[cQ5O97Oja8VQaskIAAAI#NOT_LOGGED_IN] started.
+[03:34:07]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[8ZCp82Gb9DQTZOoJAAAF#NOT_LOGGED_IN].
+[03:33:56]:: ROOM(Waiting for Players to Load)[Koujinet khaled#194875<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:33:42]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#194875<(0)players>]
+[03:33:32]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[8ZCp82Gb9DQTZOoJAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[03:33:31]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[03:33:31]:: SESSION[7Ky-onz7R8QWgrZWAAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#194875<(0)players>]
+[03:33:30]:: SESSION[8ZCp82Gb9DQTZOoJAAAF#NOT_LOGGED_IN] started.
+[03:33:29]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[7Ky-onz7R8QWgrZWAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[03:33:25]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[03:33:24]:: SESSION[7Ky-onz7R8QWgrZWAAAC#NOT_LOGGED_IN] started.
+[03:33:12]:: ^^^^^^ NEW SESSION [03:33:12] ^^^^^^
+
+[02:12:45]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[ah0bJ1vGntEK6jMsAAAC#NOT_LOGGED_IN].
+[02:09:39]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ah0bJ1vGntEK6jMsAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[02:09:37]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[02:09:36]:: SESSION[ah0bJ1vGntEK6jMsAAAC#NOT_LOGGED_IN] started.
+[02:09:25]:: server running at http://localhost:3000
+[02:08:17]:: Connected to firestore
+[02:07:47]:: Connected to firestore
+[02:07:17]:: server running at http://localhost:3000
+[02:07:05]:: Connected to firestore
+[02:07:04]:: Connected to firestore
+[02:06:53]:: Connected to firestore
+[02:06:52]:: server running at http://localhost:3000
+[02:06:49]:: server running at http://localhost:3000
+[02:06:32]:: Connected to firestore
+[02:06:19]:: server running at http://localhost:3000
+[02:05:31]:: Connected to firestore
+[02:04:59]:: Connected to firestore
+[02:04:49]:: server running at http://localhost:3000
+[02:04:19]:: server running at http://localhost:3000
+[02:03:55]:: Connected to firestore
+[02:03:51]:: server running at http://localhost:3000
+[02:03:37]:: server running at http://localhost:3000
+[02:03:02]:: Connected to firestore
+[02:02:53]:: server running at http://localhost:3000
+[02:02:03]:: server running at http://localhost:3000
+[02:01:59]:: server running at http://localhost:3000
+[02:01:44]:: Connected to firestore
+[02:01:37]:: Connected to firestore
+[02:01:35]:: server running at http://localhost:3000
+[02:01:07]:: Connected to firestore
+[02:00:59]:: Connected to firestore
+[01:59:11]:: Connected to firestore
+[01:58:58]:: server running at http://localhost:3000
+[01:32:28]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[Cn8Kbi3HniBSTVgMAAAE#NOT_LOGGED_IN].
+[01:32:21]:: ROOM(Waiting for Players to Load)[Koujinet khaled#496746<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:32:01]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#496746<(0)players>]
+[01:31:57]:: SESSION[0TO6GAv0l1heZn1xAAAH#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#496746<(0)players>]
+[01:31:56]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[0TO6GAv0l1heZn1xAAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[01:31:55]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[01:31:54]:: SESSION[0TO6GAv0l1heZn1xAAAH#NOT_LOGGED_IN] started.
+[01:31:51]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[Cn8Kbi3HniBSTVgMAAAE#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:31:50]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:31:49]:: SESSION[Cn8Kbi3HniBSTVgMAAAE#NOT_LOGGED_IN] started.
+[01:31:45]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[q2aQwJJB1R803ZqEAAAB#NOT_LOGGED_IN].
+[01:31:44]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[q2aQwJJB1R803ZqEAAAB#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:31:43]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:31:39]:: SESSION[q2aQwJJB1R803ZqEAAAB#NOT_LOGGED_IN] started.
+[01:31:39]:: Connected to firestore
+[01:29:22]:: Destroyed ROOM(Waiting for Players to Load)[Koujinet khaled#040711<(1)players>].
+[01:28:50]:: ROOM(In Lobby)[Koujinet khaled#040711<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:28:42]:: SESSION[mUldlBThtbO1uWlZAAAH#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[01:28:38]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[mUldlBThtbO1uWlZAAAH#rukki#LgxFkdL2qcICFnGwdqoi]
+[01:28:37]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[01:28:36]:: SESSION[mUldlBThtbO1uWlZAAAH#NOT_LOGGED_IN] started.
+[01:28:24]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[BHiIXuX5o4dq_pguAAAE#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:28:23]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:28:22]:: SESSION[BHiIXuX5o4dq_pguAAAE#NOT_LOGGED_IN] started.
+[01:28:19]:: login error: Error: Could not login player to unexisting session of SID:vxEmyXzmIIrSiqvgAAAB
+[01:28:17]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:28:13]:: SESSION[vxEmyXzmIIrSiqvgAAAB#NOT_LOGGED_IN] started.
+[01:28:12]:: ^^^^^^ NEW SESSION [01:28:12] ^^^^^^
+
+[01:24:07]:: ROOM(In Lobby)[Koujinet khaled#474361<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:24:01]:: SESSION[hUmwAOW1Q-nFDfc5AAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#474361<(0)players>]
+[01:23:58]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[DoLmn2G9vPLGchaPAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:23:57]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:23:56]:: SESSION[DoLmn2G9vPLGchaPAAAF#NOT_LOGGED_IN] started.
+[01:23:54]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[hUmwAOW1Q-nFDfc5AAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[01:23:53]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[01:23:50]:: SESSION[hUmwAOW1Q-nFDfc5AAAC#NOT_LOGGED_IN] started.
+[01:23:50]:: Connected to firestore
+[01:23:29]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[NblJQCt8MFLDisQJAAAH#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:23:28]:: SESSION[RiJDA7t-Pw8cXsJHAAAE#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM(In Lobby)[Koujinet khaled#781723<(0)players>]
+[01:23:28]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:23:27]:: SESSION[NblJQCt8MFLDisQJAAAH#NOT_LOGGED_IN] started.
+[01:23:25]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[RiJDA7t-Pw8cXsJHAAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[01:23:24]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[01:23:23]:: SESSION[RiJDA7t-Pw8cXsJHAAAE#NOT_LOGGED_IN] started.
+[01:20:52]:: SESSION[og8dMRf2wnjWZVvQAAAB#NOT_LOGGED_IN] started.
+[01:20:52]:: Connected to firestore
+[01:20:08]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM(In Lobby)[Koujinet khaled#243351<(0)players>]
+[01:20:03]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ihUSYod5mA91hdfBAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[01:20:02]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[01:20:02]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[nVzbkGaD6A-uVW_UAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[01:20:01]:: SESSION[nVzbkGaD6A-uVW_UAAAC#NOT_LOGGED_IN] is trying to create a room of title[Koujinet khaled]
+[01:20:01]:: SESSION[ihUSYod5mA91hdfBAAAF#NOT_LOGGED_IN] started.
+[01:19:58]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[01:19:57]:: SESSION[nVzbkGaD6A-uVW_UAAAC#NOT_LOGGED_IN] started.
+[01:13:04]:: server running at http://localhost:3000
+[01:12:47]:: Connected to firestore
+[01:12:22]:: server running at http://localhost:3000
+[01:11:49]:: server running at http://localhost:3000
+[01:11:31]:: Connected to firestore
+[01:09:54]:: server running at http://localhost:3000
+[01:09:31]:: Connected to firestore
+[01:09:14]:: server running at http://localhost:3000
+[01:08:49]:: server running at http://localhost:3000
+[01:08:47]:: Connected to firestore
+[01:08:22]:: Connected to firestore
+[01:07:49]:: server running at http://localhost:3000
+[24:52:12]:: Connected to firestore
+[24:49:21]:: Connected to firestore
+[24:49:18]:: Connected to firestore
+[24:48:37]:: server running at http://localhost:3000
+[24:48:34]:: server running at http://localhost:3000
+[24:48:27]:: Connected to firestore
+[24:47:54]:: server running at http://localhost:3000
+[24:47:46]:: server running at http://localhost:3000
+[24:47:29]:: server running at http://localhost:3000
+[24:46:43]:: Connected to firestore
+[24:46:40]:: server running at http://localhost:3000
+[24:46:36]:: Connected to firestore
+[24:46:07]:: Connected to firestore
+[24:46:06]:: server running at http://localhost:3000
+[24:45:58]:: Connected to firestore
+[24:45:54]:: server running at http://localhost:3000
+[24:44:19]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[IWw_HZVsRUvJiWobAAAw#NOT_LOGGED_IN].
+[24:44:16]:: Destroyed ROOM[Koujinet khaled#676344<(1)players>].
+[24:44:05]:: ROOM[Koujinet khaled#676344<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:44:01]:: SESSION[7R3YfwgUy0XOSUPyAAAz#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#676344<(0)players>]
+[24:44:00]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[7R3YfwgUy0XOSUPyAAAz#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:43:59]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:43:58]:: SESSION[7R3YfwgUy0XOSUPyAAAz#NOT_LOGGED_IN] started.
+[24:40:41]:: ROOM[Koujinet khaled#725144<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:40:32]:: ROOM[Koujinet khaled#725144<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:40:26]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[IWw_HZVsRUvJiWobAAAw#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:40:25]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:40:24]:: SESSION[NYVcgNh3J8z00rlSAAAt#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:40:24]:: SESSION[IWw_HZVsRUvJiWobAAAw#NOT_LOGGED_IN] started.
+[24:40:23]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[NYVcgNh3J8z00rlSAAAt#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:40:22]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:40:21]:: SESSION[NYVcgNh3J8z00rlSAAAt#NOT_LOGGED_IN] started.
+[24:40:04]:: Destroyed ROOM[Koujinet khaled#761317<(0)players>].
+[24:40:00]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[JfkJN4vZAjDcgOSZAAAh#NOT_LOGGED_IN].
+[24:39:52]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[24:39:43]:: SESSION[wu4VC9DNLLW-mHK1AAAq#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#761317<(0)players>]
+[24:39:41]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[wu4VC9DNLLW-mHK1AAAq#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:39:41]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:39:40]:: SESSION[wu4VC9DNLLW-mHK1AAAq#NOT_LOGGED_IN] started.
+[24:37:36]:: login error: Error: Could not login player to unexisting session of SID:664no1Kb-PCLufF2AAAn
+[24:37:36]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:37:35]:: SESSION[664no1Kb-PCLufF2AAAn#NOT_LOGGED_IN] started.
+[24:37:30]:: login error: Error: Could not login player to unexisting session of SID:Fx18Aydd7xQByzc2AAAk
+[24:37:29]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:37:28]:: SESSION[Fx18Aydd7xQByzc2AAAk#NOT_LOGGED_IN] started.
+[24:37:16]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[l9ywjUDGKYkBn9uqAAAe#NOT_LOGGED_IN].
+[24:36:53]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[24:36:32]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[24:36:26]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[JfkJN4vZAjDcgOSZAAAh#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:36:26]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:36:25]:: SESSION[JfkJN4vZAjDcgOSZAAAh#NOT_LOGGED_IN] started.
+[24:36:14]:: SESSION[l9ywjUDGKYkBn9uqAAAe#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:36:13]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[l9ywjUDGKYkBn9uqAAAe#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:36:12]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:36:11]:: SESSION[l9ywjUDGKYkBn9uqAAAe#NOT_LOGGED_IN] started.
+[24:27:39]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[a2HS-KyjptDa3SzeAAAb#NOT_LOGGED_IN].
+[24:27:37]:: Destroyed ROOM[Koujinet khaled#034574<(1)players>].
+[24:27:29]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#034574<(0)players>]
+[24:27:21]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[a2HS-KyjptDa3SzeAAAb#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:27:20]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:27:20]:: SESSION[a2HS-KyjptDa3SzeAAAb#NOT_LOGGED_IN] started.
+[24:27:14]:: ROOM[Koujinet khaled#034574<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:27:07]:: ROOM[Koujinet khaled#034574<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:27:01]:: SESSION[Es8fJT_3hiuuzIeMAAAY#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:27:00]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[Es8fJT_3hiuuzIeMAAAY#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:26:59]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:26:58]:: SESSION[Es8fJT_3hiuuzIeMAAAY#NOT_LOGGED_IN] started.
+[24:26:23]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[l_Mj2UsjjjxMtT52AAAV#NOT_LOGGED_IN].
+[24:25:58]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#582757<(0)players>]
+[24:25:48]:: SESSION[l_Mj2UsjjjxMtT52AAAV#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:25:47]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[l_Mj2UsjjjxMtT52AAAV#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:25:46]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:25:45]:: SESSION[l_Mj2UsjjjxMtT52AAAV#NOT_LOGGED_IN] started.
+[24:25:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[Ta8YnwJjl87SuCNeAAAS#NOT_LOGGED_IN].
+[24:25:22]:: ROOM[Koujinet khaled#483030<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:25:12]:: SESSION[Ta8YnwJjl87SuCNeAAAS#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:25:11]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[Ta8YnwJjl87SuCNeAAAS#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:25:11]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:25:10]:: SESSION[Ta8YnwJjl87SuCNeAAAS#NOT_LOGGED_IN] started.
+[24:24:11]:: ROOM[Koujinet khaled#076743<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:24:02]:: ROOM[Koujinet khaled#076743<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:23:57]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[U8Cp4sx7x6NWB12oAAAP#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:23:56]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:23:55]:: SESSION[U8Cp4sx7x6NWB12oAAAP#NOT_LOGGED_IN] started.
+[24:23:54]:: SESSION[rIL42-htFiFZASkMAAAM#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#076743<(0)players>]
+[24:23:52]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[rIL42-htFiFZASkMAAAM#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:23:51]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:23:51]:: SESSION[rIL42-htFiFZASkMAAAM#NOT_LOGGED_IN] started.
+[24:14:29]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[kSMcWRIXhiVM-mpxAAAG#NOT_LOGGED_IN].
+[24:14:22]:: Destroyed ROOM[Koujinet khaled#620895<(1)players>].
+[24:14:10]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[24:14:02]:: SESSION[pJwiST1IIjfNR7mzAAAJ#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#620895<(0)players>]
+[24:13:33]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[pJwiST1IIjfNR7mzAAAJ#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:13:32]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:13:31]:: SESSION[pJwiST1IIjfNR7mzAAAJ#NOT_LOGGED_IN] started.
+[24:13:26]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[_uuGXvTzqYcZ7xKoAAAC#NOT_LOGGED_IN].
+[24:13:17]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[kSMcWRIXhiVM-mpxAAAG#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:13:16]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:13:15]:: SESSION[kSMcWRIXhiVM-mpxAAAG#NOT_LOGGED_IN] started.
+[24:13:09]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[_uuGXvTzqYcZ7xKoAAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:13:07]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:13:06]:: SESSION[2LnXLYj7PKfSpsbqAAAD#NOT_LOGGED_IN] started.
+[24:13:06]:: SESSION[_uuGXvTzqYcZ7xKoAAAC#NOT_LOGGED_IN] started.
+[24:13:06]:: Connected to firestore
+[24:12:38]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#259693<(0)players>]
+[24:12:32]:: SESSION[KBuoXRSBd4xyL32KAAAI#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:12:32]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[KBuoXRSBd4xyL32KAAAI#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:12:31]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:12:30]:: SESSION[KBuoXRSBd4xyL32KAAAI#NOT_LOGGED_IN] started.
+[24:12:20]:: ROOM[Koujinet khaled#685136<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:09:42]:: jQk1qjrhaY4gBrU2vHKh is trying to join
+[24:09:37]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[FwVQ4IweRcIal47kAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:09:36]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:09:33]:: SESSION[4PadNwkNOoaeP5pCAAAF#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:09:32]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[4PadNwkNOoaeP5pCAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:09:28]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:09:28]:: SESSION[4PadNwkNOoaeP5pCAAAF#NOT_LOGGED_IN] started.
+[24:09:25]:: SESSION[FwVQ4IweRcIal47kAAAC#NOT_LOGGED_IN] started.
+[24:09:25]:: Connected to firestore
+[24:09:12]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[ZYqPmSqJzanlHDwzAAAT#NOT_LOGGED_IN].
+[24:08:15]:: ROOM[Koujinet khaled#871404<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:07:12]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#871404<(0)players>]
+[24:07:07]:: SESSION[ZYqPmSqJzanlHDwzAAAT#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:07:05]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[ZYqPmSqJzanlHDwzAAAT#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:07:05]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:07:04]:: SESSION[ZYqPmSqJzanlHDwzAAAT#NOT_LOGGED_IN] started.
+[24:06:22]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged out from SESSION[NbqwitVssW0vuj2bAAAQ#NOT_LOGGED_IN].
+[24:05:59]:: SESSION[NbqwitVssW0vuj2bAAAQ#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:05:56]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[NbqwitVssW0vuj2bAAAQ#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:05:55]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:05:54]:: SESSION[NbqwitVssW0vuj2bAAAQ#NOT_LOGGED_IN] started.
+[24:05:32]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[CLbVrsZSt3g0WMq0AAAN#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:05:31]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:05:30]:: SESSION[CLbVrsZSt3g0WMq0AAAN#NOT_LOGGED_IN] started.
+[24:05:26]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[rBM8Ex720a_1rnbxAAAH#NOT_LOGGED_IN].
+[24:04:42]:: ROOM[Koujinet khaled#073976<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:04:35]:: ROOM[Koujinet khaled#073976<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:04:27]:: SESSION[34wX4Q1w-o2Smj53AAAK#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:04:25]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[34wX4Q1w-o2Smj53AAAK#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:04:24]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:04:23]:: SESSION[34wX4Q1w-o2Smj53AAAK#NOT_LOGGED_IN] started.
+[24:04:20]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[rBM8Ex720a_1rnbxAAAH#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:04:19]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:04:18]:: SESSION[rBM8Ex720a_1rnbxAAAH#NOT_LOGGED_IN] started.
+[24:03:03]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[qUwFp19bTZDF-2WSAAAB#NOT_LOGGED_IN].
+[24:02:26]:: Destroyed ROOM[Koujinet khaled#501771<(1)players>].
+[24:02:14]:: ROOM[Koujinet khaled#501771<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:02:08]:: SESSION[IesVp432xU75Oqi6AAAE#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#501771<(0)players>]
+[24:02:04]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[IesVp432xU75Oqi6AAAE#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:02:04]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:02:03]:: SESSION[IesVp432xU75Oqi6AAAE#NOT_LOGGED_IN] started.
+[24:02:01]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[qUwFp19bTZDF-2WSAAAB#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:02:00]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:01:59]:: SESSION[qUwFp19bTZDF-2WSAAAB#NOT_LOGGED_IN] started.
+[24:01:58]:: Connected to firestore
+[24:01:46]:: ROOM[Koujinet khaled#202192<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:01:43]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#202192<(0)players>]
+[24:01:38]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[TdKFUZXWt1NBXyEUAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:01:38]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:01:37]:: SESSION[TdKFUZXWt1NBXyEUAAAF#NOT_LOGGED_IN] started.
+[24:01:36]:: SESSION[uOVEh88grXpj51M4AAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#202192<(0)players>]
+[24:01:36]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[uOVEh88grXpj51M4AAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:01:34]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:01:34]:: SESSION[uOVEh88grXpj51M4AAAC#NOT_LOGGED_IN] started.
+[24:01:27]:: server running at http://localhost:3000
+[24:01:23]:: server running at http://localhost:3000
+[24:00:58]:: Connected to firestore
+[24:00:56]:: Connected to firestore
+[24:00:49]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[DD-Xh3VV7eN_RVBnAAAC#NOT_LOGGED_IN].
+[24:00:43]:: Destroyed ROOM[Koujinet khaled#535308<(1)players>].
+[24:00:38]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#535308<(0)players>]
+[24:00:32]:: SESSION[qXsXSfqrZEwPeFvqAAAF#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[24:00:27]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[qXsXSfqrZEwPeFvqAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[24:00:27]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[24:00:26]:: SESSION[qXsXSfqrZEwPeFvqAAAF#NOT_LOGGED_IN] started.
+[24:00:25]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[DD-Xh3VV7eN_RVBnAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[24:00:24]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[24:00:23]:: SESSION[DD-Xh3VV7eN_RVBnAAAC#NOT_LOGGED_IN] started.
+[24:00:13]:: server running at http://localhost:3000
+[24:00:07]:: Connected to firestore
+[24:00:02]:: server running at http://localhost:3000
+[23:59:43]:: server running at http://localhost:3000
+[23:59:15]:: Connected to firestore
+[23:55:35]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged out from SESSION[kL6_6QaLlr7BYWjqAAAC#NOT_LOGGED_IN].
+[23:55:17]:: ROOM[Koujinet khaled#120082<(0)players>] removed PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[23:55:13]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] is trying to join ROOM[Koujinet khaled#120082<(0)players>]
+[23:55:04]:: SESSION[TCgoR_4dUFAn-oQMAAAF#rukki#LgxFkdL2qcICFnGwdqoi] is trying to create a room of title[Koujinet khaled]
+[23:55:03]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[TCgoR_4dUFAn-oQMAAAF#rukki#LgxFkdL2qcICFnGwdqoi]
+[23:55:02]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[23:55:02]:: SESSION[TCgoR_4dUFAn-oQMAAAF#NOT_LOGGED_IN] started.
+[23:54:55]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[kL6_6QaLlr7BYWjqAAAC#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[23:54:54]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[23:54:53]:: SESSION[kL6_6QaLlr7BYWjqAAAC#NOT_LOGGED_IN] started.
+[23:54:06]:: Connected to firestore
+[23:53:46]:: SESSION[r73BfpzxfSL0mSd-AAAB#NOT_LOGGED_IN] started.
+[23:53:46]:: Connected to firestore
+[23:52:15]:: ROOM[Koujinet khaled#848443<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[23:52:09]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[ZGqMfrE-hc7F2WT6AAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
+[23:52:08]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
+[23:52:07]:: SESSION[ZGqMfrE-hc7F2WT6AAAF#NOT_LOGGED_IN] started.
+[23:51:59]:: SESSION[fC9hy4puOQ7wbKV9AAAC#rukki#LgxFkdL2qcICFnGwdqoi] successfully created ROOM[Koujinet khaled#848443<(0)players>]
+[23:51:49]:: PLAYER[rukki#LgxFkdL2qcICFnGwdqoi] logged in to SESSION[fC9hy4puOQ7wbKV9AAAC#rukki#LgxFkdL2qcICFnGwdqoi]
+[23:51:42]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
+[23:51:41]:: SESSION[fC9hy4puOQ7wbKV9AAAC#NOT_LOGGED_IN] started.
+[23:51:24]:: server running at http://localhost:3000
 [23:17:40]:: ROOM[Koujinet khaled#296629<(1)players>] added PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh]
 [23:17:28]:: PLAYER[5archoufa#jQk1qjrhaY4gBrU2vHKh] logged in to SESSION[bzVPnehzBnebgbZhAAAD#5archoufa#jQk1qjrhaY4gBrU2vHKh]
 [23:17:27]:: New connection attempt with identifier(ahmed.khemiri@medtech.tn) and password(ahmed.khemiri)
@@ -186,7 +969,7 @@
 [08:15:54]:: SESSION[bt4c_eBtSjSS8cntAAAI#NOT_LOGGED_IN]
 [08:15:54]:: SESSION[bt4c_eBtSjSS8cntAAAI#NOT_LOGGED_IN] successfully created ROOM[Zeineb's Room#432287<(0)players>]
 [08:15:54]:: New connection attempt with identifier(zeineb.bendhiaf@medtech.tn) and password(rukki123)
-[08:15:53]:: SESSION[bt4c_eBtSjSS8cntAAAI#NOT_LOGGED_IN] started.
+[08:15:53 started.
 [08:15:53]:: SESSION[A8SFbRrjXOcFVmkrAAAF#5archoufa#jQk1qjrhaY4gBrU2vHKh]
 [08:15:52]:: active sessions(1):
 [08:15:51]:: active sessions(1):
@@ -611,6 +1394,1944 @@ s>].
 
 
 >].
+
+
+
+
+>].
+
+
+
+
+
+
+
+>].
+
+
+
+
+
+
+
+>].
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
