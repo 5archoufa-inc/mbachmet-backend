@@ -33,7 +33,6 @@ async function create(req, res) {
 
 function join(req, res) {
     const { playerInfo, roomId } = req.body;
-    log(`${playerInfo.PID} is trying to join`);
     const player = getPlayerByPID(playerInfo.PID);
     if (player == null) {
         res.status(500).json({ error: `No records of a player with PID(${playerInfo.PID})` });
@@ -56,7 +55,8 @@ function join(req, res) {
         })
         res.status(200).json({
             title: room.title,
-            players: networkPlayers
+            players: networkPlayers,
+            colorId: player.colorId
         });
     } catch (error) {
         res.status(500).json({ error });

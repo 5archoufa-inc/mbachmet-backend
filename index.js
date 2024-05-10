@@ -3,6 +3,7 @@ const { createServer } = require(`node:http`);
 const { Server } = require(`socket.io`);
 const { log, logSessionStart } = require("./utillities/logger");
 const sessionRouter = require("./routers/SessionRouter.js");
+const assetsRouter = require("./Routers/AssetsRouter.js");
 const { addSession, removeSession } = require('./Session.js');
 const roomRouter = require("./routers/RoomRouter.js");
 
@@ -48,6 +49,7 @@ app.use((req, res, next) => {
 //Routers
 app.use("/game", sessionRouter);
 app.use("/game", roomRouter);
+app.use("/assets", assetsRouter);
 
 io.on("connection", (socket) => {
     addSession(socket);

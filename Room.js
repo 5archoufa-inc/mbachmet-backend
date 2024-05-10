@@ -2,6 +2,7 @@ const { Player } = require("./Player");
 const { sessionsEvent } = require("./Session");
 const { log } = require('./utillities/logger');
 const { createNumberGenerator } = require("./utillities/codeGenerator");
+const colors = require("./assets/colors");
 let generateRoomId = null;
 createNumberGenerator(6).then(generator => {
     generateRoomId = generator;
@@ -11,6 +12,7 @@ const RoomState = {
     InLobby: "In Lobby",
     WaitingPlayersLoad: "Waiting for Players to Load",
     Playing: "Playing",
+    GameOver: "Game Over",
 };
 
 class Room {
@@ -23,8 +25,12 @@ class Room {
 
         ///Is called by host to launch a new game
         hostSession.socket.on("Launch", () => {
-            if (this.state !== RoomState.InLobby || this.players.length == 0) {
-                log(`${this} FAILED to launch game`);
+            if ((this.state !== RoomState.InLobby && this.state !== RoomState.GameOver)) {
+                log(`${this} FAILED to launch game.`);
+                return;
+            }
+            if (this.players.length == 0) {
+                log(`${this} Unsufficient number of players.`);
                 return;
             }
 
@@ -51,25 +57,97 @@ class Room {
 
     setRoomState(state) {
         console.log(`${this} switched to state: ${state}`);
+        if (state === this.state) {
+            log(`Failed to change the room state (it already is: ${state})`);
+            return;
+        }
+        if (this.state === RoomState.Playing) //Remove playing events
+        {
+            this.onStatePlaying_End();
+        } else if (this.state === RoomState.InLobby) {
+            this.onStateLobby_End();
+        } else if (this.state === RoomState.GameOver) {
+            this.onStateGameOver_End();
+        }
+        //Save new state
         this.state = state;
         //Inform host
         this.hostSession.socket.emit("OnRoomStateUpdate", state);
         //Inform players
         this.players.forEach(roomPlayer => {
             roomPlayer.session.socket.emit("OnRoomStateUpdate", state);
-            if (state === RoomState.Playing) {
-                roomPlayer.session.socket.on("RemoteControl", (playerAction, actionDataList) => {
-                    console.log(playerAction, actionDataList);
-                    this.hostSession?.socket.emit("RemoteControl", { playerAction: playerAction, actionDataList: actionDataList, age:291 });
-                });
-            }
         });
+        //Events
+        if (state === RoomState.InLobby)
+            this.onStateLobby_Start();
+        else if (state === RoomState.Playing)
+            this.onStatePlaying_Start();
+        else if (state === RoomState.GameOver)
+            this.onStateGameOver_Start();
+    }
 
-        if (state !== RoomState.Playing) {
-            this.players.forEach(roomPlayer => {
-                roomPlayer.session.socket.removeAllListeners("RemoteControl");
+    onStateGameOver_Start() {
+        this.hostSession.socket.on("GoLobby", () => {
+            this.setRoomState(RoomState.InLobby);
+        });
+    }
+
+    onStateGameOver_End() {
+        this.hostSession.socket.removeAllListeners("GoLobby");
+    }
+
+    onStateLobby_Start() {
+        this.players.forEach(roomPlayer => {
+            roomPlayer.session.socket.on("SetPlayerColor", (colorId) => {
+                this.hostSession.socket.emit("SetPlayerColor", { colorId });
             });
-        }
+        });
+    }
+
+    onStateLobby_End() {
+        this.players.forEach(roomPlayer => {
+            roomPlayer.session.socket.removeAllListeners("SetPlayerColor");
+        });
+    }
+
+    onStatePlaying_Start() {
+        this.players.forEach(roomPlayer => {
+            roomPlayer.session.socket.on("RemoteControl", (PID, playerAction, actionDataList) => {
+                this.hostSession?.socket.emit("RemoteControl", { PID, playerAction, actionDataList });
+            });
+            roomPlayer.session.socket.on("RemoteTaskResult", (senderId, taskId, progress)=>{
+                this.hostSession?.socket.emit("RemoteTaskResult", {senderId, taskId, progress});
+            });
+        });
+        this.hostSession.socket.on("GameOver", () => {
+            this.setRoomState(RoomState.GameOver);
+        });
+        this.hostSession.socket.on("RemoteTask", (PID, senderGoId, taskId, itemId) => {
+            this.players.forEach(roomPlayer => {
+                if (roomPlayer.PID === PID) {
+                    roomPlayer.session.socket.emit("RemoteTask", { senderGoId, taskId, itemId });
+                }
+            });
+        });
+        this.hostSession.socket.on("AbortRemoteTask", (PID) =>{
+            this.players.forEach(roomPlayer => {
+                if (roomPlayer.PID === PID) {
+                    roomPlayer.session.socket.emit("AbortRemoteTask");
+                }
+            });
+        });
+    }
+
+    onStatePlaying_End() {
+        this.players.forEach(roomPlayer => {
+            roomPlayer.session.socket.removeAllListeners("RemoteControl");
+            roomPlayer.session.socket.removeAllListeners("RemoteTaskResult");
+            roomPlayer.isLoaded = false;
+        });
+        this.hostSession.socket.removeAllListeners("GameOver");
+        this.hostSession.socket.removeAllListeners("RemoteTask");
+        this.hostSession.socket.removeAllListeners("AbortRemoteTask");
+        this.isHostLoaded = false;
     }
 
     /**
@@ -96,24 +174,40 @@ class Room {
         else if (player.room != null)
             throw new Error(`Unable to add player to room: ${player} is already a member of another room`);
 
+        //Add player
+        player.room = this;
+        player.colorId = this.getAvailableColor().id;
+        log(`Gave ${player} color: ${player.colorId}`);
+        this.players.push(player);
+
         //Inform host
         const RoomPlayerStateUpdate = {
             player: player.getNetworkPlayerInfo(),
             isInRoom: true
         };
-        console.log(RoomPlayerStateUpdate);
-        this.hostSession.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
+        this.hostSession?.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
 
         //Inform room players
         this.players.forEach(roomPlayer => {
-            roomPlayer.session.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
+            roomPlayer.session?.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
         });
 
-        //Add player
-        player.room = this;
-        this.players.push(player);
-
         log(`${this} added ${player}`);
+    }
+
+    getAvailableColor() {
+        for (let c = 0; c < colors.length; c++) {
+            let isAvailable = true;
+            for (let i = 0; i < this.players.length; i++) {
+                if (this.players[i].colorId == colors[c].id) {
+                    isAvailable = false;
+                    break;
+                }
+            }
+            if (isAvailable) {
+                return colors[c];
+            }
+        }
     }
 
     removePlayer(player, informOtherPlayers = true) {
@@ -126,15 +220,17 @@ class Room {
             player: player.getNetworkPlayerInfo(),
             isInRoom: false
         };
-        this.hostSession.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
+        this.hostSession?.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
 
         //Inform room players
         if (informOtherPlayers) {
             this.players.forEach(roomPlayer => {
-                roomPlayer.session.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
+                roomPlayer.session?.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
             });
-        } else {
-            player.session.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
+        } else //Only inform player 
+        {
+            log(`will inform ${player} that they were kicked out`);
+            player.session?.socket.emit("OnRoomPlayerStateUpdate", RoomPlayerStateUpdate);
         }
 
         //Remove player
@@ -157,7 +253,13 @@ class Room {
      * Kicks out all players from the room
      */
     destroy() {
+        //Check state
+        if (this.state === RoomState.Playing) {
+
+        }
+        //Remove listeners
         this.hostSession?.socket?.removeAllListeners("Launch");
+        //Remove players
         this.players.forEach(player => {
             this.removePlayer(player, false);
         })
